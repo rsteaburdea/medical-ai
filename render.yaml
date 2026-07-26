@@ -7,10 +7,9 @@ services:
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
     healthCheckPath: /api/health
+    autoDeploy: true
     envVars:
       - key: HF_TOKEN
         sync: false
       - key: CORS_ORIGINS
         value: https://rsteaburdea.github.io,http://localhost:5173,http://localhost:8080
-      - key: PYTHON_VERSION
-        value: "3.13"

@@ -54,20 +54,33 @@ docker compose up --build
 
 App: **http://localhost:8080**
 
-## GitHub Pages (frontend)
+## GitHub Pages (frontend) + free cloud backend
 
-The UI deploys automatically to GitHub Pages on every push to `main`:
+Frontend (static): **https://rsteaburdea.github.io/medical-ai/**
 
-**https://rsteaburdea.github.io/medical-ai/**
+Backend must be hosted in the cloud (not on your laptop). Free options for **FastAPI + Hugging Face**:
 
-GitHub Pages is static-only — the FastAPI backend must run elsewhere (Render, Railway, Fly.io, a VPS, etc.).
+| Host | Notes |
+|------|--------|
+| **[Render](https://render.com)** (recommended) | Free web service from `render.yaml` / Docker |
+| **Railway** | Free trial credits, then paid |
+| **Fly.io** | Free allowance with card sometimes required |
+| **Hugging Face Spaces** (Docker) | Needs a HF token with **write** scope |
 
-1. Deploy the backend publicly (Docker image from `backend/`, set `HF_TOKEN`, `CORS_ORIGINS=*`).
-2. In the GitHub repo: **Settings → Secrets and variables → Actions** → add secret:
-   - `VITE_API_URL` = `https://your-backend.example.com` (no trailing slash)
-3. Re-run the **Deploy GitHub Pages** workflow (or push to `main`).
+### Deploy backend on Render (free)
 
-Without `VITE_API_URL`, the Pages site shows **Server not available** until a backend is configured.
+1. Click: **[Deploy to Render](https://render.com/deploy?repo=https://github.com/rsteaburdea/medical-ai)**
+2. When prompted, paste your `HF_TOKEN` (Hugging Face → Settings → Access Tokens).
+3. Wait until the service is live, copy the URL  
+   (example: `https://medical-ai-api.onrender.com`).
+4. GitHub repo → **Settings → Secrets and variables → Actions** → secret:
+   - Name: `VITE_API_URL`
+   - Value: that Render URL (**no** trailing slash)
+5. GitHub → **Actions → Deploy GitHub Pages → Run workflow**.
+
+After that, the Pages site talks to Render; your Mac does not need to run the API.
+
+> Free Render apps sleep after idle time — the first request after sleep can take ~30–60s.
 
 ## Disclaimer
 
