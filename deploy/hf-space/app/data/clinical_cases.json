@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "appendicitis-001",
+    "title": "Acute right iliac fossa pain",
+    "stem": "You are seeing a 16-year-old male in the Emergency Department with 4 hours of abdominal pain that started peri-umbilically and migrated to the right iliac fossa. He feels nauseated and have lost their appetite. Vital signs: HR 88, BP 118/72, RR 16, Temp 36.8\u00b0C, SpO2 98% on air.",
+    "ideal_diagnosis": "Acute appendicitis",
+    "key_features": [
+      "Migratory pain to RIF",
+      "Anorexia / nausea",
+      "Low-grade fever / tachycardia",
+      "RIF tenderness"
+    ],
+    "suggested_questions": [
+      "Have you vomited?",
+      "Any urinary symptoms?",
+      "Any diarrhoea or PR bleeding?",
+      "Previous abdominal surgery?",
+      "Last meal / fluids?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "sbo-002",
+    "title": "Vomiting and abdominal distension",
+    "stem": "A 28-year-old female presents with 36 hours of colicky abdominal pain, bilious vomiting and absolute constipation. Past history includes abdominal surgery. Abdomen is distended with tinkling bowel sounds. HR 104, BP 88/54, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Adhesive small bowel obstruction",
+    "key_features": [
+      "Colicky pain + bilious vomiting + constipation",
+      "Previous laparotomy / adhesions",
+      "Distension / tinkling sounds",
+      "Exclude ischaemia / closed loop"
+    ],
+    "suggested_questions": [
+      "Can you pass flatus?",
+      "Nature of the vomit?",
+      "Previous operations?",
+      "Any hernia?",
+      "Pain becoming constant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholecystitis-003",
+    "title": "Right upper quadrant pain",
+    "stem": "A 45-year-old male with BMI 34 presents with 12 hours of constant RUQ pain radiating to the scapula after a fatty meal. Murphy's sign is positive. WCC raised, CRP 68. HR 118, Temp 36.8\u00b0C.",
+    "ideal_diagnosis": "Acute calculous cholecystitis",
+    "key_features": [
+      "Post-prandial RUQ pain",
+      "Murphy positive",
+      "Raised inflammatory markers",
+      "USS first-line"
+    ],
+    "suggested_questions": [
+      "Any jaundice or pale stools?",
+      "Previous biliary colic?",
+      "Fever or rigors?",
+      "Anticoagulation?",
+      "Fitness for laparoscopy?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "torsion-004",
+    "title": "Acute scrotal pain",
+    "stem": "A 63-year-old female develops sudden severe unilateral scrotal pain with vomiting. The testis is high-riding and tender; cremasteric reflex is absent. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Testicular torsion",
+    "key_features": [
+      "Sudden unilateral scrotal pain",
+      "High-riding testis",
+      "Absent cremasteric reflex",
+      "Do not delay theatre"
+    ],
+    "suggested_questions": [
+      "Exact onset / trauma?",
+      "Urinary symptoms?",
+      "Previous similar episodes?",
+      "Last oral intake?",
+      "Any sexual history relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "limb_ischaemia-005",
+    "title": "Sudden cold painful leg",
+    "stem": "A 78-year-old male with atrial fibrillation (not anticoagulated) develops sudden pain in one leg. The limb is pale, cold and pulseless with paraesthesia. Symptoms for 24 hours. HR 104, BP 88/54.",
+    "ideal_diagnosis": "Acute limb ischaemia (embolus)",
+    "key_features": [
+      "Six Ps of acute limb ischaemia",
+      "AF without anticoagulation",
+      "Time-critical revascularisation",
+      "Rutherford urgency"
+    ],
+    "suggested_questions": [
+      "Exact symptom duration?",
+      "AF / anticoagulation history?",
+      "Motor and sensory status?",
+      "Previous claudication?",
+      "Contralateral pulses / rhythm?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "pancreatitis-006",
+    "title": "Severe epigastric pain radiating to back",
+    "stem": "A 22-year-old female presents with severe epigastric pain radiating to the back, vomiting, and tenderness. Lipase is markedly elevated. Possible alcohol / gallstone risk. HR 118, BP 100/64, Temp 37.8\u00b0C, SpO2 96%.",
+    "ideal_diagnosis": "Acute pancreatitis",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Alcohol or gallstones",
+      "Severity stratification / fluids"
+    ],
+    "suggested_questions": [
+      "Alcohol history?",
+      "Previous gallstones?",
+      "Urine output?",
+      "Any dyspnoea?",
+      "Medications / triglycerides?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "diverticulitis-007",
+    "title": "Left iliac fossa pain and fever",
+    "stem": "A 41-year-old male presents with 48 hours of LIF pain, fever and change in bowel habit. Localised LIF tenderness without generalised peritonitis. HR 88, Temp 36.8\u00b0C, WCC raised, CRP 48.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LIF pain + fever",
+      "Localised tenderness",
+      "Raised CRP/WCC",
+      "CT diagnosis / antibiotics / source control"
+    ],
+    "suggested_questions": [
+      "PR bleeding?",
+      "Previous diverticular disease?",
+      "Ability to tolerate oral intake?",
+      "Any urinary symptoms?",
+      "Immunosuppression?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "perforated_ulcer-008",
+    "title": "Sudden severe epigastric pain",
+    "stem": "A 58-year-old female develops sudden severe epigastric pain with board-like rigidity. NSAID use is noted. HR 104, BP 88/54, Temp 37.8\u00b0C. Erect CXR is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe pain",
+      "Peritonism / rigidity",
+      "NSAID / ulcer risk",
+      "Free air / emergency repair"
+    ],
+    "suggested_questions": [
+      "Previous dyspepsia?",
+      "Haematemesis/melaena?",
+      "Anticoagulants/steroids?",
+      "Last oral intake?",
+      "Any shoulder-tip pain?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "aaa-009",
+    "title": "Sudden back and abdominal pain with collapse",
+    "stem": "A 72-year-old male smoker presents with sudden severe back/abdominal pain and near-syncope. A pulsatile mass is suspected. HR 118, BP 100/64, pale and clammy.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Sudden back/abdominal pain",
+      "Haemodynamic instability",
+      "Pulsatile mass / known AAA risk",
+      "Emergency vascular pathway"
+    ],
+    "suggested_questions": [
+      "Known AAA?",
+      "Syncope details?",
+      "Anticoagulation?",
+      "Peripheral pulses?",
+      "Allergies / previous imaging?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "hernia_strangulated-010",
+    "title": "Painful irreducible groin lump",
+    "stem": "A 18-year-old female presents with a painful irreducible groin lump, vomiting and absolute constipation for 36 hours. The lump is tender and erythematous. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender hernia",
+      "Obstructive symptoms",
+      "Skin changes / strangulation",
+      "Emergency repair"
+    ],
+    "suggested_questions": [
+      "How long irreducible?",
+      "Previous hernia repairs?",
+      "Flatus/stool?",
+      "Fever?",
+      "Anticoagulation?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "breast_lump-011",
+    "title": "Painless breast lump in clinic",
+    "stem": "A 34-year-old male is referred with a 2.5cm hard breast lump noticed 6 weeks ago. There is skin tethering and a palpable axillary node. Vitals normal.",
+    "ideal_diagnosis": "Breast carcinoma (clinic work-up)",
+    "key_features": [
+      "Hard fixed breast lump",
+      "Skin changes / nodes",
+      "Triple assessment",
+      "Urgent cancer pathway"
+    ],
+    "suggested_questions": [
+      "Nipple discharge?",
+      "Family history?",
+      "Hormone therapy?",
+      "Previous imaging?",
+      "Systemic symptoms?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "jaundice-012",
+    "title": "Painless jaundice and weight loss",
+    "stem": "A 52-year-old female presents with painless jaundice, dark urine, pale stools and 10 kg weight loss. A palpable gallbladder is noted. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Pancreatic head malignancy (obstructive jaundice)",
+    "key_features": [
+      "Painless obstructive jaundice",
+      "Weight loss",
+      "Courvoisier features",
+      "Staging / MDT / decompression"
+    ],
+    "suggested_questions": [
+      "Itching?",
+      "Pain pattern?",
+      "Alcohol/smoking?",
+      "New diabetes?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "gi_bleed-013",
+    "title": "Fresh rectal bleeding and dizziness",
+    "stem": "A 67-year-old male presents with large-volume fresh PR bleeding and dizziness. Abdomen soft. HR 88, BP 118/72, Hb pending. On antiplatelet therapy.",
+    "ideal_diagnosis": "Lower GI bleed (diverticular)",
+    "key_features": [
+      "Haematochezia",
+      "Haemodynamic assessment",
+      "Resuscitation / risk stratify",
+      "Localise source"
+    ],
+    "suggested_questions": [
+      "Volume of blood?",
+      "Melaena?",
+      "Anticoagulants/antiplatelets?",
+      "Previous diverticular disease?",
+      "Syncope?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "abscess-014",
+    "title": "Painful perianal swelling",
+    "stem": "A 16-year-old female presents with a painful perianal swelling for 6 hours, fever and difficulty sitting. Fluctuant tender lump at the anal verge. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Perianal abscess",
+    "key_features": [
+      "Painful perianal lump",
+      "Fever",
+      "Fluctuance",
+      "Incision and drainage"
+    ],
+    "suggested_questions": [
+      "Diabetes?",
+      "IBD history?",
+      "Discharge/fistula symptoms?",
+      "Immunosuppression?",
+      "Urinary retention?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "compartment-015",
+    "title": "Painful swollen leg after fracture",
+    "stem": "A 28-year-old male has increasing pain after a tibial fracture treated in cast. Pain is out of proportion with severe pain on passive stretch. HR 118, BP 100/64.",
+    "ideal_diagnosis": "Acute compartment syndrome",
+    "key_features": [
+      "Pain out of proportion",
+      "Pain on passive stretch",
+      "Trauma / reperfusion context",
+      "Emergency fasciotomy"
+    ],
+    "suggested_questions": [
+      "Cast tightness?",
+      "Paraesthesia?",
+      "Pulses present?",
+      "Analgesia response?",
+      "Time since injury?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "thyroid-016",
+    "title": "Thyroid nodule with compressive symptoms",
+    "stem": "A 45-year-old female presents with a thyroid nodule, recent voice change and difficulty swallowing solids. TSH is normal. USS shows a suspicious nodule.",
+    "ideal_diagnosis": "Thyroid nodule for surgery work-up",
+    "key_features": [
+      "Compressive / voice symptoms",
+      "USS risk features",
+      "FNA / Bethesda",
+      "Thyroidectomy indications"
+    ],
+    "suggested_questions": [
+      "Hyper/hypothyroid symptoms?",
+      "Radiation history?",
+      "Family history MEN?",
+      "Breathing difficulty?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "trauma_abdomen-017",
+    "title": "Blunt abdominal trauma after RTA",
+    "stem": "A 63-year-old male is brought after a road traffic collision with left upper quadrant pain and left shoulder tip pain. HR 104, BP 88/54, SpO2 98%. FAST is pending.",
+    "ideal_diagnosis": "Splenic injury (blunt trauma)",
+    "key_features": [
+      "Blunt trauma",
+      "Kehr / LUQ pain",
+      "ATLS priorities",
+      "Imaging / angio / laparotomy thresholds"
+    ],
+    "suggested_questions": [
+      "Mechanism details?",
+      "Seatbelt sign?",
+      "Other injuries?",
+      "Anticoagulation?",
+      "Last meal?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "nec_fas-018",
+    "title": "Rapidly progressive limb pain and sepsis",
+    "stem": "A 78-year-old female diabetic presents with rapidly progressive limb pain out of proportion, skin mottling and sepsis. HR 118, BP 100/64, Temp 37.8\u00b0C, lactate raised.",
+    "ideal_diagnosis": "Necrotising fasciitis",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression / sepsis",
+      "Crepitus / mottling",
+      "Urgent debridement + antibiotics"
+    ],
+    "suggested_questions": [
+      "Diabetes control?",
+      "Recent trauma/surgery?",
+      "Immunosuppression?",
+      "Gas on imaging?",
+      "Allergies to antibiotics?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholangitis-019",
+    "title": "Jaundice, fever and RUQ pain",
+    "stem": "A 22-year-old male presents with Charcot's triad: RUQ pain, fever and jaundice. He is tachycardic and hypotensive. HR 88, BP 118/72, Temp 36.8\u00b0C, bilirubin raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot / Reynolds features",
+      "Biliary obstruction + infection",
+      "Resuscitation + antibiotics",
+      "Urgent biliary decompression"
+    ],
+    "suggested_questions": [
+      "Previous ERCP/stones?",
+      "Confusion?",
+      "Urine output?",
+      "Anticoagulation?",
+      "Allergies?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "renal_colic-020",
+    "title": "Loin to groin pain and haematuria",
+    "stem": "A 41-year-old female presents with severe loin-to-groin pain and microscopic haematuria. Abdomen soft. HR 104, BP 88/54, Temp 37.8\u00b0C. Creatinine mildly raised.",
+    "ideal_diagnosis": "Ureteric colic (stone)",
+    "key_features": [
+      "Loin-groin colic",
+      "Haematuria",
+      "Exclude infection / obstruction",
+      "Analgesia / imaging / urology"
+    ],
+    "suggested_questions": [
+      "Fever/rigors?",
+      "Previous stones?",
+      "Anuria?",
+      "Anticoagulation?",
+      "Pregnancy status if relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "appendicitis-021",
+    "title": "Acute right iliac fossa pain (variant 2)",
+    "stem": "You are seeing a 58-year-old male in the Emergency Department with 24 hours of abdominal pain that started peri-umbilically and migrated to the right iliac fossa. He feels nauseated and have lost their appetite. Vital signs: HR 118, BP 100/64, RR 16, Temp 36.8\u00b0C, SpO2 98% on air.",
+    "ideal_diagnosis": "Acute appendicitis",
+    "key_features": [
+      "Migratory pain to RIF",
+      "Anorexia / nausea",
+      "Low-grade fever / tachycardia",
+      "RIF tenderness"
+    ],
+    "suggested_questions": [
+      "Have you vomited?",
+      "Any urinary symptoms?",
+      "Any diarrhoea or PR bleeding?",
+      "Previous abdominal surgery?",
+      "Last meal / fluids?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "sbo-022",
+    "title": "Vomiting and abdominal distension (variant 2)",
+    "stem": "A 72-year-old female presents with 6 hours of colicky abdominal pain, bilious vomiting and absolute constipation. Past history includes abdominal surgery. Abdomen is distended with tinkling bowel sounds. HR 88, BP 118/72, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Adhesive small bowel obstruction",
+    "key_features": [
+      "Colicky pain + bilious vomiting + constipation",
+      "Previous laparotomy / adhesions",
+      "Distension / tinkling sounds",
+      "Exclude ischaemia / closed loop"
+    ],
+    "suggested_questions": [
+      "Can you pass flatus?",
+      "Nature of the vomit?",
+      "Previous operations?",
+      "Any hernia?",
+      "Pain becoming constant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholecystitis-023",
+    "title": "Right upper quadrant pain (variant 2)",
+    "stem": "A 18-year-old male with BMI 34 presents with 48 hours of constant RUQ pain radiating to the scapula after a fatty meal. Murphy's sign is positive. WCC raised, CRP 68. HR 104, Temp 36.8\u00b0C.",
+    "ideal_diagnosis": "Acute calculous cholecystitis",
+    "key_features": [
+      "Post-prandial RUQ pain",
+      "Murphy positive",
+      "Raised inflammatory markers",
+      "USS first-line"
+    ],
+    "suggested_questions": [
+      "Any jaundice or pale stools?",
+      "Previous biliary colic?",
+      "Fever or rigors?",
+      "Anticoagulation?",
+      "Fitness for laparoscopy?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "torsion-024",
+    "title": "Acute scrotal pain (variant 2)",
+    "stem": "A 34-year-old female develops sudden severe unilateral scrotal pain with vomiting. The testis is high-riding and tender; cremasteric reflex is absent. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Testicular torsion",
+    "key_features": [
+      "Sudden unilateral scrotal pain",
+      "High-riding testis",
+      "Absent cremasteric reflex",
+      "Do not delay theatre"
+    ],
+    "suggested_questions": [
+      "Exact onset / trauma?",
+      "Urinary symptoms?",
+      "Previous similar episodes?",
+      "Last oral intake?",
+      "Any sexual history relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "limb_ischaemia-025",
+    "title": "Sudden cold painful leg (variant 2)",
+    "stem": "A 52-year-old male with atrial fibrillation (not anticoagulated) develops sudden pain in one leg. The limb is pale, cold and pulseless with paraesthesia. Symptoms for 4 hours. HR 88, BP 118/72.",
+    "ideal_diagnosis": "Acute limb ischaemia (embolus)",
+    "key_features": [
+      "Six Ps of acute limb ischaemia",
+      "AF without anticoagulation",
+      "Time-critical revascularisation",
+      "Rutherford urgency"
+    ],
+    "suggested_questions": [
+      "Exact symptom duration?",
+      "AF / anticoagulation history?",
+      "Motor and sensory status?",
+      "Previous claudication?",
+      "Contralateral pulses / rhythm?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "pancreatitis-026",
+    "title": "Severe epigastric pain radiating to back (variant 2)",
+    "stem": "A 67-year-old female presents with severe epigastric pain radiating to the back, vomiting, and tenderness. Lipase is markedly elevated. Possible alcohol / gallstone risk. HR 104, BP 88/54, Temp 37.8\u00b0C, SpO2 96%.",
+    "ideal_diagnosis": "Acute pancreatitis",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Alcohol or gallstones",
+      "Severity stratification / fluids"
+    ],
+    "suggested_questions": [
+      "Alcohol history?",
+      "Previous gallstones?",
+      "Urine output?",
+      "Any dyspnoea?",
+      "Medications / triglycerides?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "diverticulitis-027",
+    "title": "Left iliac fossa pain and fever (variant 2)",
+    "stem": "A 16-year-old male presents with 12 hours of LIF pain, fever and change in bowel habit. Localised LIF tenderness without generalised peritonitis. HR 118, Temp 36.8\u00b0C, WCC raised, CRP 48.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LIF pain + fever",
+      "Localised tenderness",
+      "Raised CRP/WCC",
+      "CT diagnosis / antibiotics / source control"
+    ],
+    "suggested_questions": [
+      "PR bleeding?",
+      "Previous diverticular disease?",
+      "Ability to tolerate oral intake?",
+      "Any urinary symptoms?",
+      "Immunosuppression?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "perforated_ulcer-028",
+    "title": "Sudden severe epigastric pain (variant 2)",
+    "stem": "A 28-year-old female develops sudden severe epigastric pain with board-like rigidity. NSAID use is noted. HR 88, BP 118/72, Temp 37.8\u00b0C. Erect CXR is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe pain",
+      "Peritonism / rigidity",
+      "NSAID / ulcer risk",
+      "Free air / emergency repair"
+    ],
+    "suggested_questions": [
+      "Previous dyspepsia?",
+      "Haematemesis/melaena?",
+      "Anticoagulants/steroids?",
+      "Last oral intake?",
+      "Any shoulder-tip pain?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "aaa-029",
+    "title": "Sudden back and abdominal pain with collapse (variant 2)",
+    "stem": "A 45-year-old male smoker presents with sudden severe back/abdominal pain and near-syncope. A pulsatile mass is suspected. HR 104, BP 88/54, pale and clammy.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Sudden back/abdominal pain",
+      "Haemodynamic instability",
+      "Pulsatile mass / known AAA risk",
+      "Emergency vascular pathway"
+    ],
+    "suggested_questions": [
+      "Known AAA?",
+      "Syncope details?",
+      "Anticoagulation?",
+      "Peripheral pulses?",
+      "Allergies / previous imaging?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "hernia_strangulated-030",
+    "title": "Painful irreducible groin lump (variant 2)",
+    "stem": "A 63-year-old female presents with a painful irreducible groin lump, vomiting and absolute constipation for 6 hours. The lump is tender and erythematous. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender hernia",
+      "Obstructive symptoms",
+      "Skin changes / strangulation",
+      "Emergency repair"
+    ],
+    "suggested_questions": [
+      "How long irreducible?",
+      "Previous hernia repairs?",
+      "Flatus/stool?",
+      "Fever?",
+      "Anticoagulation?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "breast_lump-031",
+    "title": "Painless breast lump in clinic (variant 2)",
+    "stem": "A 78-year-old male is referred with a 2.5cm hard breast lump noticed 6 weeks ago. There is skin tethering and a palpable axillary node. Vitals normal.",
+    "ideal_diagnosis": "Breast carcinoma (clinic work-up)",
+    "key_features": [
+      "Hard fixed breast lump",
+      "Skin changes / nodes",
+      "Triple assessment",
+      "Urgent cancer pathway"
+    ],
+    "suggested_questions": [
+      "Nipple discharge?",
+      "Family history?",
+      "Hormone therapy?",
+      "Previous imaging?",
+      "Systemic symptoms?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "jaundice-032",
+    "title": "Painless jaundice and weight loss (variant 2)",
+    "stem": "A 22-year-old female presents with painless jaundice, dark urine, pale stools and 10 kg weight loss. A palpable gallbladder is noted. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Pancreatic head malignancy (obstructive jaundice)",
+    "key_features": [
+      "Painless obstructive jaundice",
+      "Weight loss",
+      "Courvoisier features",
+      "Staging / MDT / decompression"
+    ],
+    "suggested_questions": [
+      "Itching?",
+      "Pain pattern?",
+      "Alcohol/smoking?",
+      "New diabetes?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "gi_bleed-033",
+    "title": "Fresh rectal bleeding and dizziness (variant 2)",
+    "stem": "A 41-year-old male presents with large-volume fresh PR bleeding and dizziness. Abdomen soft. HR 118, BP 100/64, Hb pending. On antiplatelet therapy.",
+    "ideal_diagnosis": "Lower GI bleed (diverticular)",
+    "key_features": [
+      "Haematochezia",
+      "Haemodynamic assessment",
+      "Resuscitation / risk stratify",
+      "Localise source"
+    ],
+    "suggested_questions": [
+      "Volume of blood?",
+      "Melaena?",
+      "Anticoagulants/antiplatelets?",
+      "Previous diverticular disease?",
+      "Syncope?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "abscess-034",
+    "title": "Painful perianal swelling (variant 2)",
+    "stem": "A 58-year-old female presents with a painful perianal swelling for 36 hours, fever and difficulty sitting. Fluctuant tender lump at the anal verge. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Perianal abscess",
+    "key_features": [
+      "Painful perianal lump",
+      "Fever",
+      "Fluctuance",
+      "Incision and drainage"
+    ],
+    "suggested_questions": [
+      "Diabetes?",
+      "IBD history?",
+      "Discharge/fistula symptoms?",
+      "Immunosuppression?",
+      "Urinary retention?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "compartment-035",
+    "title": "Painful swollen leg after fracture (variant 2)",
+    "stem": "A 72-year-old male has increasing pain after a tibial fracture treated in cast. Pain is out of proportion with severe pain on passive stretch. HR 104, BP 88/54.",
+    "ideal_diagnosis": "Acute compartment syndrome",
+    "key_features": [
+      "Pain out of proportion",
+      "Pain on passive stretch",
+      "Trauma / reperfusion context",
+      "Emergency fasciotomy"
+    ],
+    "suggested_questions": [
+      "Cast tightness?",
+      "Paraesthesia?",
+      "Pulses present?",
+      "Analgesia response?",
+      "Time since injury?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "thyroid-036",
+    "title": "Thyroid nodule with compressive symptoms (variant 2)",
+    "stem": "A 18-year-old female presents with a thyroid nodule, recent voice change and difficulty swallowing solids. TSH is normal. USS shows a suspicious nodule.",
+    "ideal_diagnosis": "Thyroid nodule for surgery work-up",
+    "key_features": [
+      "Compressive / voice symptoms",
+      "USS risk features",
+      "FNA / Bethesda",
+      "Thyroidectomy indications"
+    ],
+    "suggested_questions": [
+      "Hyper/hypothyroid symptoms?",
+      "Radiation history?",
+      "Family history MEN?",
+      "Breathing difficulty?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "trauma_abdomen-037",
+    "title": "Blunt abdominal trauma after RTA (variant 2)",
+    "stem": "A 34-year-old male is brought after a road traffic collision with left upper quadrant pain and left shoulder tip pain. HR 88, BP 118/72, SpO2 98%. FAST is pending.",
+    "ideal_diagnosis": "Splenic injury (blunt trauma)",
+    "key_features": [
+      "Blunt trauma",
+      "Kehr / LUQ pain",
+      "ATLS priorities",
+      "Imaging / angio / laparotomy thresholds"
+    ],
+    "suggested_questions": [
+      "Mechanism details?",
+      "Seatbelt sign?",
+      "Other injuries?",
+      "Anticoagulation?",
+      "Last meal?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "nec_fas-038",
+    "title": "Rapidly progressive limb pain and sepsis (variant 2)",
+    "stem": "A 52-year-old female diabetic presents with rapidly progressive limb pain out of proportion, skin mottling and sepsis. HR 104, BP 88/54, Temp 37.8\u00b0C, lactate raised.",
+    "ideal_diagnosis": "Necrotising fasciitis",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression / sepsis",
+      "Crepitus / mottling",
+      "Urgent debridement + antibiotics"
+    ],
+    "suggested_questions": [
+      "Diabetes control?",
+      "Recent trauma/surgery?",
+      "Immunosuppression?",
+      "Gas on imaging?",
+      "Allergies to antibiotics?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholangitis-039",
+    "title": "Jaundice, fever and RUQ pain (variant 2)",
+    "stem": "A 67-year-old male presents with Charcot's triad: RUQ pain, fever and jaundice. He is tachycardic and hypotensive. HR 118, BP 100/64, Temp 36.8\u00b0C, bilirubin raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot / Reynolds features",
+      "Biliary obstruction + infection",
+      "Resuscitation + antibiotics",
+      "Urgent biliary decompression"
+    ],
+    "suggested_questions": [
+      "Previous ERCP/stones?",
+      "Confusion?",
+      "Urine output?",
+      "Anticoagulation?",
+      "Allergies?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "renal_colic-040",
+    "title": "Loin to groin pain and haematuria (variant 2)",
+    "stem": "A 16-year-old female presents with severe loin-to-groin pain and microscopic haematuria. Abdomen soft. HR 88, BP 118/72, Temp 37.8\u00b0C. Creatinine mildly raised.",
+    "ideal_diagnosis": "Ureteric colic (stone)",
+    "key_features": [
+      "Loin-groin colic",
+      "Haematuria",
+      "Exclude infection / obstruction",
+      "Analgesia / imaging / urology"
+    ],
+    "suggested_questions": [
+      "Fever/rigors?",
+      "Previous stones?",
+      "Anuria?",
+      "Anticoagulation?",
+      "Pregnancy status if relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "appendicitis-041",
+    "title": "Acute right iliac fossa pain (variant 3)",
+    "stem": "You are seeing a 28-year-old male in the Emergency Department with 4 hours of abdominal pain that started peri-umbilically and migrated to the right iliac fossa. He feels nauseated and have lost their appetite. Vital signs: HR 104, BP 88/54, RR 16, Temp 36.8\u00b0C, SpO2 98% on air.",
+    "ideal_diagnosis": "Acute appendicitis",
+    "key_features": [
+      "Migratory pain to RIF",
+      "Anorexia / nausea",
+      "Low-grade fever / tachycardia",
+      "RIF tenderness"
+    ],
+    "suggested_questions": [
+      "Have you vomited?",
+      "Any urinary symptoms?",
+      "Any diarrhoea or PR bleeding?",
+      "Previous abdominal surgery?",
+      "Last meal / fluids?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "sbo-042",
+    "title": "Vomiting and abdominal distension (variant 3)",
+    "stem": "A 45-year-old female presents with 36 hours of colicky abdominal pain, bilious vomiting and absolute constipation. Past history includes abdominal surgery. Abdomen is distended with tinkling bowel sounds. HR 118, BP 100/64, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Adhesive small bowel obstruction",
+    "key_features": [
+      "Colicky pain + bilious vomiting + constipation",
+      "Previous laparotomy / adhesions",
+      "Distension / tinkling sounds",
+      "Exclude ischaemia / closed loop"
+    ],
+    "suggested_questions": [
+      "Can you pass flatus?",
+      "Nature of the vomit?",
+      "Previous operations?",
+      "Any hernia?",
+      "Pain becoming constant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholecystitis-043",
+    "title": "Right upper quadrant pain (variant 3)",
+    "stem": "A 63-year-old male with BMI 34 presents with 12 hours of constant RUQ pain radiating to the scapula after a fatty meal. Murphy's sign is positive. WCC raised, CRP 68. HR 88, Temp 36.8\u00b0C.",
+    "ideal_diagnosis": "Acute calculous cholecystitis",
+    "key_features": [
+      "Post-prandial RUQ pain",
+      "Murphy positive",
+      "Raised inflammatory markers",
+      "USS first-line"
+    ],
+    "suggested_questions": [
+      "Any jaundice or pale stools?",
+      "Previous biliary colic?",
+      "Fever or rigors?",
+      "Anticoagulation?",
+      "Fitness for laparoscopy?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "torsion-044",
+    "title": "Acute scrotal pain (variant 3)",
+    "stem": "A 78-year-old female develops sudden severe unilateral scrotal pain with vomiting. The testis is high-riding and tender; cremasteric reflex is absent. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Testicular torsion",
+    "key_features": [
+      "Sudden unilateral scrotal pain",
+      "High-riding testis",
+      "Absent cremasteric reflex",
+      "Do not delay theatre"
+    ],
+    "suggested_questions": [
+      "Exact onset / trauma?",
+      "Urinary symptoms?",
+      "Previous similar episodes?",
+      "Last oral intake?",
+      "Any sexual history relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "limb_ischaemia-045",
+    "title": "Sudden cold painful leg (variant 3)",
+    "stem": "A 22-year-old male with atrial fibrillation (not anticoagulated) develops sudden pain in one leg. The limb is pale, cold and pulseless with paraesthesia. Symptoms for 24 hours. HR 118, BP 100/64.",
+    "ideal_diagnosis": "Acute limb ischaemia (embolus)",
+    "key_features": [
+      "Six Ps of acute limb ischaemia",
+      "AF without anticoagulation",
+      "Time-critical revascularisation",
+      "Rutherford urgency"
+    ],
+    "suggested_questions": [
+      "Exact symptom duration?",
+      "AF / anticoagulation history?",
+      "Motor and sensory status?",
+      "Previous claudication?",
+      "Contralateral pulses / rhythm?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "pancreatitis-046",
+    "title": "Severe epigastric pain radiating to back (variant 3)",
+    "stem": "A 41-year-old female presents with severe epigastric pain radiating to the back, vomiting, and tenderness. Lipase is markedly elevated. Possible alcohol / gallstone risk. HR 88, BP 118/72, Temp 37.8\u00b0C, SpO2 96%.",
+    "ideal_diagnosis": "Acute pancreatitis",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Alcohol or gallstones",
+      "Severity stratification / fluids"
+    ],
+    "suggested_questions": [
+      "Alcohol history?",
+      "Previous gallstones?",
+      "Urine output?",
+      "Any dyspnoea?",
+      "Medications / triglycerides?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "diverticulitis-047",
+    "title": "Left iliac fossa pain and fever (variant 3)",
+    "stem": "A 58-year-old male presents with 48 hours of LIF pain, fever and change in bowel habit. Localised LIF tenderness without generalised peritonitis. HR 104, Temp 36.8\u00b0C, WCC raised, CRP 48.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LIF pain + fever",
+      "Localised tenderness",
+      "Raised CRP/WCC",
+      "CT diagnosis / antibiotics / source control"
+    ],
+    "suggested_questions": [
+      "PR bleeding?",
+      "Previous diverticular disease?",
+      "Ability to tolerate oral intake?",
+      "Any urinary symptoms?",
+      "Immunosuppression?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "perforated_ulcer-048",
+    "title": "Sudden severe epigastric pain (variant 3)",
+    "stem": "A 72-year-old female develops sudden severe epigastric pain with board-like rigidity. NSAID use is noted. HR 118, BP 100/64, Temp 37.8\u00b0C. Erect CXR is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe pain",
+      "Peritonism / rigidity",
+      "NSAID / ulcer risk",
+      "Free air / emergency repair"
+    ],
+    "suggested_questions": [
+      "Previous dyspepsia?",
+      "Haematemesis/melaena?",
+      "Anticoagulants/steroids?",
+      "Last oral intake?",
+      "Any shoulder-tip pain?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "aaa-049",
+    "title": "Sudden back and abdominal pain with collapse (variant 3)",
+    "stem": "A 18-year-old male smoker presents with sudden severe back/abdominal pain and near-syncope. A pulsatile mass is suspected. HR 88, BP 118/72, pale and clammy.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Sudden back/abdominal pain",
+      "Haemodynamic instability",
+      "Pulsatile mass / known AAA risk",
+      "Emergency vascular pathway"
+    ],
+    "suggested_questions": [
+      "Known AAA?",
+      "Syncope details?",
+      "Anticoagulation?",
+      "Peripheral pulses?",
+      "Allergies / previous imaging?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "hernia_strangulated-050",
+    "title": "Painful irreducible groin lump (variant 3)",
+    "stem": "A 34-year-old female presents with a painful irreducible groin lump, vomiting and absolute constipation for 36 hours. The lump is tender and erythematous. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender hernia",
+      "Obstructive symptoms",
+      "Skin changes / strangulation",
+      "Emergency repair"
+    ],
+    "suggested_questions": [
+      "How long irreducible?",
+      "Previous hernia repairs?",
+      "Flatus/stool?",
+      "Fever?",
+      "Anticoagulation?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "breast_lump-051",
+    "title": "Painless breast lump in clinic (variant 3)",
+    "stem": "A 52-year-old male is referred with a 2.5cm hard breast lump noticed 6 weeks ago. There is skin tethering and a palpable axillary node. Vitals normal.",
+    "ideal_diagnosis": "Breast carcinoma (clinic work-up)",
+    "key_features": [
+      "Hard fixed breast lump",
+      "Skin changes / nodes",
+      "Triple assessment",
+      "Urgent cancer pathway"
+    ],
+    "suggested_questions": [
+      "Nipple discharge?",
+      "Family history?",
+      "Hormone therapy?",
+      "Previous imaging?",
+      "Systemic symptoms?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "jaundice-052",
+    "title": "Painless jaundice and weight loss (variant 3)",
+    "stem": "A 67-year-old female presents with painless jaundice, dark urine, pale stools and 10 kg weight loss. A palpable gallbladder is noted. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Pancreatic head malignancy (obstructive jaundice)",
+    "key_features": [
+      "Painless obstructive jaundice",
+      "Weight loss",
+      "Courvoisier features",
+      "Staging / MDT / decompression"
+    ],
+    "suggested_questions": [
+      "Itching?",
+      "Pain pattern?",
+      "Alcohol/smoking?",
+      "New diabetes?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "gi_bleed-053",
+    "title": "Fresh rectal bleeding and dizziness (variant 3)",
+    "stem": "A 16-year-old male presents with large-volume fresh PR bleeding and dizziness. Abdomen soft. HR 104, BP 88/54, Hb pending. On antiplatelet therapy.",
+    "ideal_diagnosis": "Lower GI bleed (diverticular)",
+    "key_features": [
+      "Haematochezia",
+      "Haemodynamic assessment",
+      "Resuscitation / risk stratify",
+      "Localise source"
+    ],
+    "suggested_questions": [
+      "Volume of blood?",
+      "Melaena?",
+      "Anticoagulants/antiplatelets?",
+      "Previous diverticular disease?",
+      "Syncope?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "abscess-054",
+    "title": "Painful perianal swelling (variant 3)",
+    "stem": "A 28-year-old female presents with a painful perianal swelling for 6 hours, fever and difficulty sitting. Fluctuant tender lump at the anal verge. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Perianal abscess",
+    "key_features": [
+      "Painful perianal lump",
+      "Fever",
+      "Fluctuance",
+      "Incision and drainage"
+    ],
+    "suggested_questions": [
+      "Diabetes?",
+      "IBD history?",
+      "Discharge/fistula symptoms?",
+      "Immunosuppression?",
+      "Urinary retention?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "compartment-055",
+    "title": "Painful swollen leg after fracture (variant 3)",
+    "stem": "A 45-year-old male has increasing pain after a tibial fracture treated in cast. Pain is out of proportion with severe pain on passive stretch. HR 88, BP 118/72.",
+    "ideal_diagnosis": "Acute compartment syndrome",
+    "key_features": [
+      "Pain out of proportion",
+      "Pain on passive stretch",
+      "Trauma / reperfusion context",
+      "Emergency fasciotomy"
+    ],
+    "suggested_questions": [
+      "Cast tightness?",
+      "Paraesthesia?",
+      "Pulses present?",
+      "Analgesia response?",
+      "Time since injury?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "thyroid-056",
+    "title": "Thyroid nodule with compressive symptoms (variant 3)",
+    "stem": "A 63-year-old female presents with a thyroid nodule, recent voice change and difficulty swallowing solids. TSH is normal. USS shows a suspicious nodule.",
+    "ideal_diagnosis": "Thyroid nodule for surgery work-up",
+    "key_features": [
+      "Compressive / voice symptoms",
+      "USS risk features",
+      "FNA / Bethesda",
+      "Thyroidectomy indications"
+    ],
+    "suggested_questions": [
+      "Hyper/hypothyroid symptoms?",
+      "Radiation history?",
+      "Family history MEN?",
+      "Breathing difficulty?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "trauma_abdomen-057",
+    "title": "Blunt abdominal trauma after RTA (variant 3)",
+    "stem": "A 78-year-old male is brought after a road traffic collision with left upper quadrant pain and left shoulder tip pain. HR 118, BP 100/64, SpO2 98%. FAST is pending.",
+    "ideal_diagnosis": "Splenic injury (blunt trauma)",
+    "key_features": [
+      "Blunt trauma",
+      "Kehr / LUQ pain",
+      "ATLS priorities",
+      "Imaging / angio / laparotomy thresholds"
+    ],
+    "suggested_questions": [
+      "Mechanism details?",
+      "Seatbelt sign?",
+      "Other injuries?",
+      "Anticoagulation?",
+      "Last meal?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "nec_fas-058",
+    "title": "Rapidly progressive limb pain and sepsis (variant 3)",
+    "stem": "A 22-year-old female diabetic presents with rapidly progressive limb pain out of proportion, skin mottling and sepsis. HR 88, BP 118/72, Temp 37.8\u00b0C, lactate raised.",
+    "ideal_diagnosis": "Necrotising fasciitis",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression / sepsis",
+      "Crepitus / mottling",
+      "Urgent debridement + antibiotics"
+    ],
+    "suggested_questions": [
+      "Diabetes control?",
+      "Recent trauma/surgery?",
+      "Immunosuppression?",
+      "Gas on imaging?",
+      "Allergies to antibiotics?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholangitis-059",
+    "title": "Jaundice, fever and RUQ pain (variant 3)",
+    "stem": "A 41-year-old male presents with Charcot's triad: RUQ pain, fever and jaundice. He is tachycardic and hypotensive. HR 104, BP 88/54, Temp 36.8\u00b0C, bilirubin raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot / Reynolds features",
+      "Biliary obstruction + infection",
+      "Resuscitation + antibiotics",
+      "Urgent biliary decompression"
+    ],
+    "suggested_questions": [
+      "Previous ERCP/stones?",
+      "Confusion?",
+      "Urine output?",
+      "Anticoagulation?",
+      "Allergies?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "renal_colic-060",
+    "title": "Loin to groin pain and haematuria (variant 3)",
+    "stem": "A 58-year-old female presents with severe loin-to-groin pain and microscopic haematuria. Abdomen soft. HR 118, BP 100/64, Temp 37.8\u00b0C. Creatinine mildly raised.",
+    "ideal_diagnosis": "Ureteric colic (stone)",
+    "key_features": [
+      "Loin-groin colic",
+      "Haematuria",
+      "Exclude infection / obstruction",
+      "Analgesia / imaging / urology"
+    ],
+    "suggested_questions": [
+      "Fever/rigors?",
+      "Previous stones?",
+      "Anuria?",
+      "Anticoagulation?",
+      "Pregnancy status if relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "appendicitis-061",
+    "title": "Acute right iliac fossa pain (variant 4)",
+    "stem": "You are seeing a 72-year-old male in the Emergency Department with 24 hours of abdominal pain that started peri-umbilically and migrated to the right iliac fossa. He feels nauseated and have lost their appetite. Vital signs: HR 88, BP 118/72, RR 16, Temp 36.8\u00b0C, SpO2 98% on air.",
+    "ideal_diagnosis": "Acute appendicitis",
+    "key_features": [
+      "Migratory pain to RIF",
+      "Anorexia / nausea",
+      "Low-grade fever / tachycardia",
+      "RIF tenderness"
+    ],
+    "suggested_questions": [
+      "Have you vomited?",
+      "Any urinary symptoms?",
+      "Any diarrhoea or PR bleeding?",
+      "Previous abdominal surgery?",
+      "Last meal / fluids?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "sbo-062",
+    "title": "Vomiting and abdominal distension (variant 4)",
+    "stem": "A 18-year-old female presents with 6 hours of colicky abdominal pain, bilious vomiting and absolute constipation. Past history includes abdominal surgery. Abdomen is distended with tinkling bowel sounds. HR 104, BP 88/54, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Adhesive small bowel obstruction",
+    "key_features": [
+      "Colicky pain + bilious vomiting + constipation",
+      "Previous laparotomy / adhesions",
+      "Distension / tinkling sounds",
+      "Exclude ischaemia / closed loop"
+    ],
+    "suggested_questions": [
+      "Can you pass flatus?",
+      "Nature of the vomit?",
+      "Previous operations?",
+      "Any hernia?",
+      "Pain becoming constant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholecystitis-063",
+    "title": "Right upper quadrant pain (variant 4)",
+    "stem": "A 34-year-old male with BMI 34 presents with 48 hours of constant RUQ pain radiating to the scapula after a fatty meal. Murphy's sign is positive. WCC raised, CRP 68. HR 118, Temp 36.8\u00b0C.",
+    "ideal_diagnosis": "Acute calculous cholecystitis",
+    "key_features": [
+      "Post-prandial RUQ pain",
+      "Murphy positive",
+      "Raised inflammatory markers",
+      "USS first-line"
+    ],
+    "suggested_questions": [
+      "Any jaundice or pale stools?",
+      "Previous biliary colic?",
+      "Fever or rigors?",
+      "Anticoagulation?",
+      "Fitness for laparoscopy?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "torsion-064",
+    "title": "Acute scrotal pain (variant 4)",
+    "stem": "A 52-year-old female develops sudden severe unilateral scrotal pain with vomiting. The testis is high-riding and tender; cremasteric reflex is absent. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Testicular torsion",
+    "key_features": [
+      "Sudden unilateral scrotal pain",
+      "High-riding testis",
+      "Absent cremasteric reflex",
+      "Do not delay theatre"
+    ],
+    "suggested_questions": [
+      "Exact onset / trauma?",
+      "Urinary symptoms?",
+      "Previous similar episodes?",
+      "Last oral intake?",
+      "Any sexual history relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "limb_ischaemia-065",
+    "title": "Sudden cold painful leg (variant 4)",
+    "stem": "A 67-year-old male with atrial fibrillation (not anticoagulated) develops sudden pain in one leg. The limb is pale, cold and pulseless with paraesthesia. Symptoms for 4 hours. HR 104, BP 88/54.",
+    "ideal_diagnosis": "Acute limb ischaemia (embolus)",
+    "key_features": [
+      "Six Ps of acute limb ischaemia",
+      "AF without anticoagulation",
+      "Time-critical revascularisation",
+      "Rutherford urgency"
+    ],
+    "suggested_questions": [
+      "Exact symptom duration?",
+      "AF / anticoagulation history?",
+      "Motor and sensory status?",
+      "Previous claudication?",
+      "Contralateral pulses / rhythm?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "pancreatitis-066",
+    "title": "Severe epigastric pain radiating to back (variant 4)",
+    "stem": "A 16-year-old female presents with severe epigastric pain radiating to the back, vomiting, and tenderness. Lipase is markedly elevated. Possible alcohol / gallstone risk. HR 118, BP 100/64, Temp 37.8\u00b0C, SpO2 96%.",
+    "ideal_diagnosis": "Acute pancreatitis",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Alcohol or gallstones",
+      "Severity stratification / fluids"
+    ],
+    "suggested_questions": [
+      "Alcohol history?",
+      "Previous gallstones?",
+      "Urine output?",
+      "Any dyspnoea?",
+      "Medications / triglycerides?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "diverticulitis-067",
+    "title": "Left iliac fossa pain and fever (variant 4)",
+    "stem": "A 28-year-old male presents with 12 hours of LIF pain, fever and change in bowel habit. Localised LIF tenderness without generalised peritonitis. HR 88, Temp 36.8\u00b0C, WCC raised, CRP 48.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LIF pain + fever",
+      "Localised tenderness",
+      "Raised CRP/WCC",
+      "CT diagnosis / antibiotics / source control"
+    ],
+    "suggested_questions": [
+      "PR bleeding?",
+      "Previous diverticular disease?",
+      "Ability to tolerate oral intake?",
+      "Any urinary symptoms?",
+      "Immunosuppression?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "perforated_ulcer-068",
+    "title": "Sudden severe epigastric pain (variant 4)",
+    "stem": "A 45-year-old female develops sudden severe epigastric pain with board-like rigidity. NSAID use is noted. HR 104, BP 88/54, Temp 37.8\u00b0C. Erect CXR is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe pain",
+      "Peritonism / rigidity",
+      "NSAID / ulcer risk",
+      "Free air / emergency repair"
+    ],
+    "suggested_questions": [
+      "Previous dyspepsia?",
+      "Haematemesis/melaena?",
+      "Anticoagulants/steroids?",
+      "Last oral intake?",
+      "Any shoulder-tip pain?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "aaa-069",
+    "title": "Sudden back and abdominal pain with collapse (variant 4)",
+    "stem": "A 63-year-old male smoker presents with sudden severe back/abdominal pain and near-syncope. A pulsatile mass is suspected. HR 118, BP 100/64, pale and clammy.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Sudden back/abdominal pain",
+      "Haemodynamic instability",
+      "Pulsatile mass / known AAA risk",
+      "Emergency vascular pathway"
+    ],
+    "suggested_questions": [
+      "Known AAA?",
+      "Syncope details?",
+      "Anticoagulation?",
+      "Peripheral pulses?",
+      "Allergies / previous imaging?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "hernia_strangulated-070",
+    "title": "Painful irreducible groin lump (variant 4)",
+    "stem": "A 78-year-old female presents with a painful irreducible groin lump, vomiting and absolute constipation for 6 hours. The lump is tender and erythematous. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender hernia",
+      "Obstructive symptoms",
+      "Skin changes / strangulation",
+      "Emergency repair"
+    ],
+    "suggested_questions": [
+      "How long irreducible?",
+      "Previous hernia repairs?",
+      "Flatus/stool?",
+      "Fever?",
+      "Anticoagulation?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "breast_lump-071",
+    "title": "Painless breast lump in clinic (variant 4)",
+    "stem": "A 22-year-old male is referred with a 2.5cm hard breast lump noticed 6 weeks ago. There is skin tethering and a palpable axillary node. Vitals normal.",
+    "ideal_diagnosis": "Breast carcinoma (clinic work-up)",
+    "key_features": [
+      "Hard fixed breast lump",
+      "Skin changes / nodes",
+      "Triple assessment",
+      "Urgent cancer pathway"
+    ],
+    "suggested_questions": [
+      "Nipple discharge?",
+      "Family history?",
+      "Hormone therapy?",
+      "Previous imaging?",
+      "Systemic symptoms?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "jaundice-072",
+    "title": "Painless jaundice and weight loss (variant 4)",
+    "stem": "A 41-year-old female presents with painless jaundice, dark urine, pale stools and 10 kg weight loss. A palpable gallbladder is noted. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Pancreatic head malignancy (obstructive jaundice)",
+    "key_features": [
+      "Painless obstructive jaundice",
+      "Weight loss",
+      "Courvoisier features",
+      "Staging / MDT / decompression"
+    ],
+    "suggested_questions": [
+      "Itching?",
+      "Pain pattern?",
+      "Alcohol/smoking?",
+      "New diabetes?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "gi_bleed-073",
+    "title": "Fresh rectal bleeding and dizziness (variant 4)",
+    "stem": "A 58-year-old male presents with large-volume fresh PR bleeding and dizziness. Abdomen soft. HR 88, BP 118/72, Hb pending. On antiplatelet therapy.",
+    "ideal_diagnosis": "Lower GI bleed (diverticular)",
+    "key_features": [
+      "Haematochezia",
+      "Haemodynamic assessment",
+      "Resuscitation / risk stratify",
+      "Localise source"
+    ],
+    "suggested_questions": [
+      "Volume of blood?",
+      "Melaena?",
+      "Anticoagulants/antiplatelets?",
+      "Previous diverticular disease?",
+      "Syncope?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "abscess-074",
+    "title": "Painful perianal swelling (variant 4)",
+    "stem": "A 72-year-old female presents with a painful perianal swelling for 36 hours, fever and difficulty sitting. Fluctuant tender lump at the anal verge. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Perianal abscess",
+    "key_features": [
+      "Painful perianal lump",
+      "Fever",
+      "Fluctuance",
+      "Incision and drainage"
+    ],
+    "suggested_questions": [
+      "Diabetes?",
+      "IBD history?",
+      "Discharge/fistula symptoms?",
+      "Immunosuppression?",
+      "Urinary retention?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "compartment-075",
+    "title": "Painful swollen leg after fracture (variant 4)",
+    "stem": "A 18-year-old male has increasing pain after a tibial fracture treated in cast. Pain is out of proportion with severe pain on passive stretch. HR 118, BP 100/64.",
+    "ideal_diagnosis": "Acute compartment syndrome",
+    "key_features": [
+      "Pain out of proportion",
+      "Pain on passive stretch",
+      "Trauma / reperfusion context",
+      "Emergency fasciotomy"
+    ],
+    "suggested_questions": [
+      "Cast tightness?",
+      "Paraesthesia?",
+      "Pulses present?",
+      "Analgesia response?",
+      "Time since injury?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "thyroid-076",
+    "title": "Thyroid nodule with compressive symptoms (variant 4)",
+    "stem": "A 34-year-old female presents with a thyroid nodule, recent voice change and difficulty swallowing solids. TSH is normal. USS shows a suspicious nodule.",
+    "ideal_diagnosis": "Thyroid nodule for surgery work-up",
+    "key_features": [
+      "Compressive / voice symptoms",
+      "USS risk features",
+      "FNA / Bethesda",
+      "Thyroidectomy indications"
+    ],
+    "suggested_questions": [
+      "Hyper/hypothyroid symptoms?",
+      "Radiation history?",
+      "Family history MEN?",
+      "Breathing difficulty?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "trauma_abdomen-077",
+    "title": "Blunt abdominal trauma after RTA (variant 4)",
+    "stem": "A 52-year-old male is brought after a road traffic collision with left upper quadrant pain and left shoulder tip pain. HR 104, BP 88/54, SpO2 98%. FAST is pending.",
+    "ideal_diagnosis": "Splenic injury (blunt trauma)",
+    "key_features": [
+      "Blunt trauma",
+      "Kehr / LUQ pain",
+      "ATLS priorities",
+      "Imaging / angio / laparotomy thresholds"
+    ],
+    "suggested_questions": [
+      "Mechanism details?",
+      "Seatbelt sign?",
+      "Other injuries?",
+      "Anticoagulation?",
+      "Last meal?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "nec_fas-078",
+    "title": "Rapidly progressive limb pain and sepsis (variant 4)",
+    "stem": "A 67-year-old female diabetic presents with rapidly progressive limb pain out of proportion, skin mottling and sepsis. HR 118, BP 100/64, Temp 37.8\u00b0C, lactate raised.",
+    "ideal_diagnosis": "Necrotising fasciitis",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression / sepsis",
+      "Crepitus / mottling",
+      "Urgent debridement + antibiotics"
+    ],
+    "suggested_questions": [
+      "Diabetes control?",
+      "Recent trauma/surgery?",
+      "Immunosuppression?",
+      "Gas on imaging?",
+      "Allergies to antibiotics?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholangitis-079",
+    "title": "Jaundice, fever and RUQ pain (variant 4)",
+    "stem": "A 16-year-old male presents with Charcot's triad: RUQ pain, fever and jaundice. He is tachycardic and hypotensive. HR 88, BP 118/72, Temp 36.8\u00b0C, bilirubin raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot / Reynolds features",
+      "Biliary obstruction + infection",
+      "Resuscitation + antibiotics",
+      "Urgent biliary decompression"
+    ],
+    "suggested_questions": [
+      "Previous ERCP/stones?",
+      "Confusion?",
+      "Urine output?",
+      "Anticoagulation?",
+      "Allergies?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "renal_colic-080",
+    "title": "Loin to groin pain and haematuria (variant 4)",
+    "stem": "A 28-year-old female presents with severe loin-to-groin pain and microscopic haematuria. Abdomen soft. HR 104, BP 88/54, Temp 37.8\u00b0C. Creatinine mildly raised.",
+    "ideal_diagnosis": "Ureteric colic (stone)",
+    "key_features": [
+      "Loin-groin colic",
+      "Haematuria",
+      "Exclude infection / obstruction",
+      "Analgesia / imaging / urology"
+    ],
+    "suggested_questions": [
+      "Fever/rigors?",
+      "Previous stones?",
+      "Anuria?",
+      "Anticoagulation?",
+      "Pregnancy status if relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "appendicitis-081",
+    "title": "Acute right iliac fossa pain (variant 5)",
+    "stem": "You are seeing a 45-year-old male in the Emergency Department with 4 hours of abdominal pain that started peri-umbilically and migrated to the right iliac fossa. He feels nauseated and have lost their appetite. Vital signs: HR 118, BP 100/64, RR 16, Temp 36.8\u00b0C, SpO2 98% on air.",
+    "ideal_diagnosis": "Acute appendicitis",
+    "key_features": [
+      "Migratory pain to RIF",
+      "Anorexia / nausea",
+      "Low-grade fever / tachycardia",
+      "RIF tenderness"
+    ],
+    "suggested_questions": [
+      "Have you vomited?",
+      "Any urinary symptoms?",
+      "Any diarrhoea or PR bleeding?",
+      "Previous abdominal surgery?",
+      "Last meal / fluids?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "sbo-082",
+    "title": "Vomiting and abdominal distension (variant 5)",
+    "stem": "A 63-year-old female presents with 36 hours of colicky abdominal pain, bilious vomiting and absolute constipation. Past history includes abdominal surgery. Abdomen is distended with tinkling bowel sounds. HR 88, BP 118/72, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Adhesive small bowel obstruction",
+    "key_features": [
+      "Colicky pain + bilious vomiting + constipation",
+      "Previous laparotomy / adhesions",
+      "Distension / tinkling sounds",
+      "Exclude ischaemia / closed loop"
+    ],
+    "suggested_questions": [
+      "Can you pass flatus?",
+      "Nature of the vomit?",
+      "Previous operations?",
+      "Any hernia?",
+      "Pain becoming constant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholecystitis-083",
+    "title": "Right upper quadrant pain (variant 5)",
+    "stem": "A 78-year-old male with BMI 34 presents with 12 hours of constant RUQ pain radiating to the scapula after a fatty meal. Murphy's sign is positive. WCC raised, CRP 68. HR 104, Temp 36.8\u00b0C.",
+    "ideal_diagnosis": "Acute calculous cholecystitis",
+    "key_features": [
+      "Post-prandial RUQ pain",
+      "Murphy positive",
+      "Raised inflammatory markers",
+      "USS first-line"
+    ],
+    "suggested_questions": [
+      "Any jaundice or pale stools?",
+      "Previous biliary colic?",
+      "Fever or rigors?",
+      "Anticoagulation?",
+      "Fitness for laparoscopy?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "torsion-084",
+    "title": "Acute scrotal pain (variant 5)",
+    "stem": "A 22-year-old female develops sudden severe unilateral scrotal pain with vomiting. The testis is high-riding and tender; cremasteric reflex is absent. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Testicular torsion",
+    "key_features": [
+      "Sudden unilateral scrotal pain",
+      "High-riding testis",
+      "Absent cremasteric reflex",
+      "Do not delay theatre"
+    ],
+    "suggested_questions": [
+      "Exact onset / trauma?",
+      "Urinary symptoms?",
+      "Previous similar episodes?",
+      "Last oral intake?",
+      "Any sexual history relevant?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "limb_ischaemia-085",
+    "title": "Sudden cold painful leg (variant 5)",
+    "stem": "A 41-year-old male with atrial fibrillation (not anticoagulated) develops sudden pain in one leg. The limb is pale, cold and pulseless with paraesthesia. Symptoms for 24 hours. HR 88, BP 118/72.",
+    "ideal_diagnosis": "Acute limb ischaemia (embolus)",
+    "key_features": [
+      "Six Ps of acute limb ischaemia",
+      "AF without anticoagulation",
+      "Time-critical revascularisation",
+      "Rutherford urgency"
+    ],
+    "suggested_questions": [
+      "Exact symptom duration?",
+      "AF / anticoagulation history?",
+      "Motor and sensory status?",
+      "Previous claudication?",
+      "Contralateral pulses / rhythm?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "pancreatitis-086",
+    "title": "Severe epigastric pain radiating to back (variant 5)",
+    "stem": "A 58-year-old female presents with severe epigastric pain radiating to the back, vomiting, and tenderness. Lipase is markedly elevated. Possible alcohol / gallstone risk. HR 104, BP 88/54, Temp 37.8\u00b0C, SpO2 96%.",
+    "ideal_diagnosis": "Acute pancreatitis",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Alcohol or gallstones",
+      "Severity stratification / fluids"
+    ],
+    "suggested_questions": [
+      "Alcohol history?",
+      "Previous gallstones?",
+      "Urine output?",
+      "Any dyspnoea?",
+      "Medications / triglycerides?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "diverticulitis-087",
+    "title": "Left iliac fossa pain and fever (variant 5)",
+    "stem": "A 72-year-old male presents with 48 hours of LIF pain, fever and change in bowel habit. Localised LIF tenderness without generalised peritonitis. HR 118, Temp 36.8\u00b0C, WCC raised, CRP 48.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LIF pain + fever",
+      "Localised tenderness",
+      "Raised CRP/WCC",
+      "CT diagnosis / antibiotics / source control"
+    ],
+    "suggested_questions": [
+      "PR bleeding?",
+      "Previous diverticular disease?",
+      "Ability to tolerate oral intake?",
+      "Any urinary symptoms?",
+      "Immunosuppression?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "perforated_ulcer-088",
+    "title": "Sudden severe epigastric pain (variant 5)",
+    "stem": "A 18-year-old female develops sudden severe epigastric pain with board-like rigidity. NSAID use is noted. HR 88, BP 118/72, Temp 37.8\u00b0C. Erect CXR is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe pain",
+      "Peritonism / rigidity",
+      "NSAID / ulcer risk",
+      "Free air / emergency repair"
+    ],
+    "suggested_questions": [
+      "Previous dyspepsia?",
+      "Haematemesis/melaena?",
+      "Anticoagulants/steroids?",
+      "Last oral intake?",
+      "Any shoulder-tip pain?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "aaa-089",
+    "title": "Sudden back and abdominal pain with collapse (variant 5)",
+    "stem": "A 34-year-old male smoker presents with sudden severe back/abdominal pain and near-syncope. A pulsatile mass is suspected. HR 104, BP 88/54, pale and clammy.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Sudden back/abdominal pain",
+      "Haemodynamic instability",
+      "Pulsatile mass / known AAA risk",
+      "Emergency vascular pathway"
+    ],
+    "suggested_questions": [
+      "Known AAA?",
+      "Syncope details?",
+      "Anticoagulation?",
+      "Peripheral pulses?",
+      "Allergies / previous imaging?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "hernia_strangulated-090",
+    "title": "Painful irreducible groin lump (variant 5)",
+    "stem": "A 52-year-old female presents with a painful irreducible groin lump, vomiting and absolute constipation for 36 hours. The lump is tender and erythematous. HR 118, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender hernia",
+      "Obstructive symptoms",
+      "Skin changes / strangulation",
+      "Emergency repair"
+    ],
+    "suggested_questions": [
+      "How long irreducible?",
+      "Previous hernia repairs?",
+      "Flatus/stool?",
+      "Fever?",
+      "Anticoagulation?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "breast_lump-091",
+    "title": "Painless breast lump in clinic (variant 5)",
+    "stem": "A 67-year-old male is referred with a 2.5cm hard breast lump noticed 6 weeks ago. There is skin tethering and a palpable axillary node. Vitals normal.",
+    "ideal_diagnosis": "Breast carcinoma (clinic work-up)",
+    "key_features": [
+      "Hard fixed breast lump",
+      "Skin changes / nodes",
+      "Triple assessment",
+      "Urgent cancer pathway"
+    ],
+    "suggested_questions": [
+      "Nipple discharge?",
+      "Family history?",
+      "Hormone therapy?",
+      "Previous imaging?",
+      "Systemic symptoms?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "jaundice-092",
+    "title": "Painless jaundice and weight loss (variant 5)",
+    "stem": "A 16-year-old female presents with painless jaundice, dark urine, pale stools and 10 kg weight loss. A palpable gallbladder is noted. HR 104, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Pancreatic head malignancy (obstructive jaundice)",
+    "key_features": [
+      "Painless obstructive jaundice",
+      "Weight loss",
+      "Courvoisier features",
+      "Staging / MDT / decompression"
+    ],
+    "suggested_questions": [
+      "Itching?",
+      "Pain pattern?",
+      "Alcohol/smoking?",
+      "New diabetes?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "gi_bleed-093",
+    "title": "Fresh rectal bleeding and dizziness (variant 5)",
+    "stem": "A 28-year-old male presents with large-volume fresh PR bleeding and dizziness. Abdomen soft. HR 118, BP 100/64, Hb pending. On antiplatelet therapy.",
+    "ideal_diagnosis": "Lower GI bleed (diverticular)",
+    "key_features": [
+      "Haematochezia",
+      "Haemodynamic assessment",
+      "Resuscitation / risk stratify",
+      "Localise source"
+    ],
+    "suggested_questions": [
+      "Volume of blood?",
+      "Melaena?",
+      "Anticoagulants/antiplatelets?",
+      "Previous diverticular disease?",
+      "Syncope?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "abscess-094",
+    "title": "Painful perianal swelling (variant 5)",
+    "stem": "A 45-year-old female presents with a painful perianal swelling for 6 hours, fever and difficulty sitting. Fluctuant tender lump at the anal verge. HR 88, Temp 37.8\u00b0C.",
+    "ideal_diagnosis": "Perianal abscess",
+    "key_features": [
+      "Painful perianal lump",
+      "Fever",
+      "Fluctuance",
+      "Incision and drainage"
+    ],
+    "suggested_questions": [
+      "Diabetes?",
+      "IBD history?",
+      "Discharge/fistula symptoms?",
+      "Immunosuppression?",
+      "Urinary retention?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "compartment-095",
+    "title": "Painful swollen leg after fracture (variant 5)",
+    "stem": "A 63-year-old male has increasing pain after a tibial fracture treated in cast. Pain is out of proportion with severe pain on passive stretch. HR 104, BP 88/54.",
+    "ideal_diagnosis": "Acute compartment syndrome",
+    "key_features": [
+      "Pain out of proportion",
+      "Pain on passive stretch",
+      "Trauma / reperfusion context",
+      "Emergency fasciotomy"
+    ],
+    "suggested_questions": [
+      "Cast tightness?",
+      "Paraesthesia?",
+      "Pulses present?",
+      "Analgesia response?",
+      "Time since injury?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "thyroid-096",
+    "title": "Thyroid nodule with compressive symptoms (variant 5)",
+    "stem": "A 78-year-old female presents with a thyroid nodule, recent voice change and difficulty swallowing solids. TSH is normal. USS shows a suspicious nodule.",
+    "ideal_diagnosis": "Thyroid nodule for surgery work-up",
+    "key_features": [
+      "Compressive / voice symptoms",
+      "USS risk features",
+      "FNA / Bethesda",
+      "Thyroidectomy indications"
+    ],
+    "suggested_questions": [
+      "Hyper/hypothyroid symptoms?",
+      "Radiation history?",
+      "Family history MEN?",
+      "Breathing difficulty?",
+      "Medications?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "trauma_abdomen-097",
+    "title": "Blunt abdominal trauma after RTA (variant 5)",
+    "stem": "A 22-year-old male is brought after a road traffic collision with left upper quadrant pain and left shoulder tip pain. HR 88, BP 118/72, SpO2 98%. FAST is pending.",
+    "ideal_diagnosis": "Splenic injury (blunt trauma)",
+    "key_features": [
+      "Blunt trauma",
+      "Kehr / LUQ pain",
+      "ATLS priorities",
+      "Imaging / angio / laparotomy thresholds"
+    ],
+    "suggested_questions": [
+      "Mechanism details?",
+      "Seatbelt sign?",
+      "Other injuries?",
+      "Anticoagulation?",
+      "Last meal?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "nec_fas-098",
+    "title": "Rapidly progressive limb pain and sepsis (variant 5)",
+    "stem": "A 41-year-old female diabetic presents with rapidly progressive limb pain out of proportion, skin mottling and sepsis. HR 104, BP 88/54, Temp 37.8\u00b0C, lactate raised.",
+    "ideal_diagnosis": "Necrotising fasciitis",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression / sepsis",
+      "Crepitus / mottling",
+      "Urgent debridement + antibiotics"
+    ],
+    "suggested_questions": [
+      "Diabetes control?",
+      "Recent trauma/surgery?",
+      "Immunosuppression?",
+      "Gas on imaging?",
+      "Allergies to antibiotics?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "cholangitis-099",
+    "title": "Jaundice, fever and RUQ pain (variant 5)",
+    "stem": "A 58-year-old male presents with Charcot's triad: RUQ pain, fever and jaundice. He is tachycardic and hypotensive. HR 118, BP 100/64, Temp 36.8\u00b0C, bilirubin raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot / Reynolds features",
+      "Biliary obstruction + infection",
+      "Resuscitation + antibiotics",
+      "Urgent biliary decompression"
+    ],
+    "suggested_questions": [
+      "Previous ERCP/stones?",
+      "Confusion?",
+      "Urine output?",
+      "Anticoagulation?",
+      "Allergies?"
+    ],
+    "generated": false
+  },
+  {
+    "id": "renal_colic-100",
+    "title": "Loin to groin pain and haematuria (variant 5)",
+    "stem": "A 72-year-old female presents with severe loin-to-groin pain and microscopic haematuria. Abdomen soft. HR 88, BP 118/72, Temp 37.8\u00b0C. Creatinine mildly raised.",
+    "ideal_diagnosis": "Ureteric colic (stone)",
+    "key_features": [
+      "Loin-groin colic",
+      "Haematuria",
+      "Exclude infection / obstruction",
+      "Analgesia / imaging / urology"
+    ],
+    "suggested_questions": [
+      "Fever/rigors?",
+      "Previous stones?",
+      "Anuria?",
+      "Anticoagulation?",
+      "Pregnancy status if relevant?"
+    ],
+    "generated": false
+  }
+]

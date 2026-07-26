@@ -1,0 +1,200 @@
+[
+  {
+    "id": "gen-perf-ulcer-34b9b9",
+    "title": "Sudden severe epigastric pain",
+    "stem": "A 23-year-old man presents with sudden severe epigastric pain that began 6 hours ago. They have been taking regular ibuprofen for backache. The abdomen is rigid with generalised peritonism. HR 88, BP 110/74, Temp 37.9°C. An erect chest X-ray is pending.",
+    "ideal_diagnosis": "Perforated peptic ulcer",
+    "key_features": [
+      "Sudden severe epigastric pain",
+      "NSAID use",
+      "Board-like rigidity / peritonitis",
+      "Free air under diaphragm (expected)"
+    ],
+    "suggested_questions": [
+      "Any previous dyspepsia or ulcer disease?",
+      "Haematemesis or melaena?",
+      "Last oral intake?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-breast-abscess-8d082e",
+    "title": "Painful breast lump in lactating patient",
+    "stem": "A 37-year-old lactating woman presents with a painful, erythematous right breast lump for 36 days. She is febrile. There is a fluctuant mass in the upper outer quadrant. HR 118, BP 97/63, Temp 38.9°C.",
+    "ideal_diagnosis": "Lactational breast abscess",
+    "key_features": [
+      "Lactating patient",
+      "Painful red breast mass",
+      "Fever",
+      "Ultrasound ± drainage"
+    ],
+    "suggested_questions": [
+      "Able to continue breastfeeding?",
+      "Any nipple trauma or cracked skin?",
+      "Previous mastitis?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-inguinal-strangulation-81333e",
+    "title": "Irreducible painful groin lump",
+    "stem": "A 31-year-old woman presents with an irreducible painful right groin lump for 6 hours, now with vomiting. The lump is tender and there is no cough impulse. HR 93, BP 113/69, Temp 37.0°C.",
+    "ideal_diagnosis": "Strangulated inguinal hernia",
+    "key_features": [
+      "Irreducible tender groin lump",
+      "Vomiting / obstruction symptoms",
+      "No cough impulse",
+      "Emergency surgery"
+    ],
+    "suggested_questions": [
+      "When was the lump last reducible?",
+      "Passing flatus or stool?",
+      "Previous hernia repair?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-pancreatitis-47b2d8",
+    "title": "Severe epigastric pain radiating to the back",
+    "stem": "A 62-year-old woman with known gallstones presents with severe epigastric pain radiating to the back and vomiting for 48 hours. Abdomen is tender but soft. Lipase is markedly elevated. HR 103, BP 128/87, Temp 38.5°C.",
+    "ideal_diagnosis": "Acute pancreatitis (gallstone)",
+    "key_features": [
+      "Epigastric pain to back",
+      "Raised lipase",
+      "Gallstone risk",
+      "Resuscitation and severity scoring"
+    ],
+    "suggested_questions": [
+      "Alcohol intake?",
+      "Any jaundice?",
+      "Urine output since onset?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-mesenteric-ischaemia-dee7d3",
+    "title": "Severe abdominal pain out of proportion",
+    "stem": "A 57-year-old man with atrial fibrillation presents with sudden severe diffuse abdominal pain out of proportion to examination findings. Lactate is rising. HR 122, BP 128/75, Temp 37.7°C.",
+    "ideal_diagnosis": "Acute mesenteric ischaemia",
+    "key_features": [
+      "Pain out of proportion",
+      "AF / embolic source",
+      "Rising lactate",
+      "Urgent CT angiogram / laparotomy"
+    ],
+    "suggested_questions": [
+      "Onset exactly when?",
+      "Anticoagulation status?",
+      "PR bleeding or diarrhoea?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-abscess-22f119",
+    "title": "Post-operative wound swelling and fever",
+    "stem": "A 60-year-old woman is day 24 after open appendicectomy and develops increasing wound pain, swelling and fever. The wound is erythematous with fluctuance. HR 111, BP 120/54, Temp 37.4°C.",
+    "ideal_diagnosis": "Surgical site infection / wound abscess",
+    "key_features": [
+      "Post-operative fever",
+      "Erythema and fluctuance",
+      "Need for drainage",
+      "Antibiotics as adjunct"
+    ],
+    "suggested_questions": [
+      "Any purulent discharge?",
+      "Diabetes or immunosuppression?",
+      "Current antibiotics?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-epididymo-193b7a",
+    "title": "Gradual unilateral scrotal pain",
+    "stem": "A 78-year-old male presents with gradual onset left scrotal pain and swelling over 12 hours, with dysuria. Cremasteric reflex is present. HR 107, BP 106/88, Temp 38.4°C.",
+    "ideal_diagnosis": "Epididymo-orchitis",
+    "key_features": [
+      "Gradual onset",
+      "Dysuria / UTI features",
+      "Cremasteric reflex present",
+      "Still exclude torsion if uncertain"
+    ],
+    "suggested_questions": [
+      "Sexual history?",
+      "Exact onset sudden or gradual?",
+      "Any nausea or vomiting?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-diverticulitis-a2dd5c",
+    "title": "Left lower quadrant pain and fever",
+    "stem": "A 52-year-old man presents with 12 hours of progressive left lower quadrant pain, low-grade fever and altered bowel habit. There is localised LLQ tenderness without generalised peritonism. HR 88, BP 97/86, Temp 38.2°C. WCC and CRP are raised.",
+    "ideal_diagnosis": "Acute diverticulitis",
+    "key_features": [
+      "LLQ pain",
+      "Fever / raised inflammatory markers",
+      "Localised tenderness",
+      "CT to confirm and grade severity"
+    ],
+    "suggested_questions": [
+      "Any PR bleeding or mucus?",
+      "Previous similar episodes?",
+      "Able to tolerate oral intake?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-cholangitis-0dbf7e",
+    "title": "Jaundice with fever and RUQ pain",
+    "stem": "A 71-year-old woman presents with right upper quadrant pain, fever and jaundice for 48 hours. Murphy's sign is equivocal; they look septic. HR 111, BP 94/80, Temp 38.4°C. LFTs are cholestatic and WCC is raised.",
+    "ideal_diagnosis": "Ascending cholangitis",
+    "key_features": [
+      "Charcot's triad / Reynolds pentad risk",
+      "Cholestatic LFTs",
+      "Biliary obstruction",
+      "Urgent resuscitation + antibiotics + decompression"
+    ],
+    "suggested_questions": [
+      "Previous gallstones or ERCP?",
+      "Dark urine or pale stools?",
+      "Any confusion or hypotension?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-nec-fas-8bebe3",
+    "title": "Rapidly progressive limb pain after minor trauma",
+    "stem": "A 73-year-old woman with diabetes presents with rapidly progressive pain in the leg after a minor scratch 24 hours ago. Pain is out of proportion; there is tense swelling and systemic toxicity. HR 92, BP 121/80, Temp 36.9°C.",
+    "ideal_diagnosis": "Necrotising soft tissue infection",
+    "key_features": [
+      "Pain out of proportion",
+      "Rapid progression",
+      "Systemic toxicity",
+      "Urgent surgical exploration"
+    ],
+    "suggested_questions": [
+      "Any crepitus or bullae?",
+      "Glycaemic control?",
+      "Time course exactly?"
+    ],
+    "generated": true
+  },
+  {
+    "id": "gen-aaa-35da8d",
+    "title": "Back pain and collapse in an older patient",
+    "stem": "A 58-year-old man with hypertension develops sudden severe back/flank pain and a brief collapse. There is a pulsatile abdominal mass. HR 113, BP 107/87, Temp 38.8°C.",
+    "ideal_diagnosis": "Ruptured abdominal aortic aneurysm",
+    "key_features": [
+      "Older patient + sudden back/flank pain",
+      "Collapse / hypotension",
+      "Pulsatile mass",
+      "Immediate vascular escalation"
+    ],
+    "suggested_questions": [
+      "Known aneurysm?",
+      "Anticoagulants?",
+      "Syncope details and current consciousness?"
+    ],
+    "generated": true
+  }
+]

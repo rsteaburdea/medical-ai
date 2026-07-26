@@ -1,0 +1,162 @@
+[
+  {
+    "pmid": "31848585",
+    "title": "Diagnosis and management of acute appendicitis. EAES consensus development conference 2015",
+    "abstract": "Acute appendicitis is among the most common causes of acute abdominal pain. Diagnosis remains clinical, supported by laboratory markers and imaging. Laparoscopic appendectomy is preferred when expertise is available. Antibiotics may be considered in selected uncomplicated cases with shared decision-making.",
+    "journal": "Surg Endosc",
+    "year": 2016,
+    "topics": ["appendicitis", "acute abdomen", "surgery"]
+  },
+  {
+    "pmid": "28662235",
+    "title": "WSES Jerusalem guidelines for diagnosis and treatment of acute appendicitis",
+    "abstract": "The World Society of Emergency Surgery guidelines cover diagnosis with Alvarado and AIR scores, CT and ultrasound pathways, and non-operative versus operative management of uncomplicated and complicated appendicitis including abscess and peritonitis.",
+    "journal": "World J Emerg Surg",
+    "year": 2017,
+    "topics": ["appendicitis", "guidelines", "emergency surgery"]
+  },
+  {
+    "pmid": "33253685",
+    "title": "Acute bowel obstruction: clinical presentation, diagnosis and management",
+    "abstract": "Small bowel obstruction typically presents with colicky pain, vomiting, distension and constipation. Adhesions are the leading cause in adults. CT identifies transition points and ischaemia. Initial management includes resuscitation, NG decompression and selective operative intervention for closed-loop or ischaemic obstruction.",
+    "journal": "Br J Surg",
+    "year": 2020,
+    "topics": ["bowel obstruction", "acute abdomen", "surgery"]
+  },
+  {
+    "pmid": "29325137",
+    "title": "NICE guideline NG12: Suspected cancer — recognition and referral",
+    "abstract": "Guidance on recognising symptoms that may indicate cancer and appropriate urgent referral pathways including two-week-wait criteria for colorectal, breast, lung and upper GI malignancies relevant to surgical clinics.",
+    "journal": "NICE",
+    "year": 2015,
+    "topics": ["cancer referral", "guidelines", "clinic"]
+  },
+  {
+    "pmid": "25559444",
+    "title": "Management of acute pancreatitis: guidelines from the International Association of Pancreatology",
+    "abstract": "Acute pancreatitis diagnosis requires two of three criteria: characteristic pain, lipase/amylase elevation, and imaging findings. Severity stratification, fluid resuscitation, early enteral nutrition and selective intervention for infected necrosis are key principles.",
+    "journal": "Pancreatology",
+    "year": 2013,
+    "topics": ["pancreatitis", "acute abdomen", "guidelines"]
+  },
+  {
+    "pmid": "30326010",
+    "title": "Early management of severe burns: ATLS and burn-specific resuscitation",
+    "abstract": "Initial burn assessment follows ATLS priorities. Total body surface area estimation with Lund-Brower or rule of nines guides Parkland fluid resuscitation. Circumferential burns may require escharotomy. Early transfer to a burns centre improves outcomes.",
+    "journal": "Lancet",
+    "year": 2018,
+    "topics": ["burns", "trauma", "resuscitation"]
+  },
+  {
+    "pmid": "27537504",
+    "title": "Damage control resuscitation and surgery in major trauma",
+    "abstract": "Damage control approaches prioritise haemorrhage control, temporary abdominal closure and physiological restoration over definitive repair in exsanguinating trauma. Permissive hypotension, limited crystalloid and early blood product ratios characterise modern resuscitation.",
+    "journal": "Br J Anaesth",
+    "year": 2016,
+    "topics": ["trauma", "damage control", "surgery"]
+  },
+  {
+    "pmid": "31434756",
+    "title": "Evaluation of the acute scrotum: testicular torsion and differentials",
+    "abstract": "Testicular torsion is a surgical emergency. Sudden severe unilateral scrotal pain, high-riding testis and absent cremasteric reflex raise suspicion. Immediate surgical exploration should not be delayed for imaging when clinical suspicion is high. Differentials include epididymo-orchitis and torsion of the appendix testis.",
+    "journal": "BJU Int",
+    "year": 2019,
+    "topics": ["urology", "scrotum", "emergency"]
+  },
+  {
+    "pmid": "29215663",
+    "title": "Gallstone disease: diagnosis and surgical management of cholecystitis",
+    "abstract": "Symptomatic cholelithiasis and acute cholecystitis are common surgical presentations. Ultrasound is first-line imaging. Tokyo guidelines stratify cholecystitis severity. Early laparoscopic cholecystectomy is preferred for mild acute cholecystitis when patients are fit.",
+    "journal": "BMJ",
+    "year": 2017,
+    "topics": ["gallstones", "cholecystitis", "surgery"]
+  },
+  {
+    "pmid": "26888755",
+    "title": "Lower gastrointestinal bleeding: assessment and management in surgical patients",
+    "abstract": "LGIB presents with haematochezia or melaena. Resuscitation, risk stratification and localisation with colonoscopy or CT angiography guide therapy. Most bleeds settle spontaneously; interventional radiology or surgery is reserved for ongoing haemorrhage.",
+    "journal": "Frontline Gastroenterol",
+    "year": 2016,
+    "topics": ["GI bleeding", "colorectal", "emergency"]
+  },
+  {
+    "pmid": "31022090",
+    "title": "Breast lump assessment: triple assessment in surgical clinic",
+    "abstract": "Triple assessment of breast lumps combines clinical examination, imaging (mammography and/or ultrasound) and tissue sampling. Red-flag features include hard fixed masses, skin tethering, nipple discharge and lymphadenopathy. Pathways align with urgent cancer referral standards.",
+    "journal": "Surgery (Oxford)",
+    "year": 2019,
+    "topics": ["breast", "clinic", "cancer"]
+  },
+  {
+    "pmid": "28159552",
+    "title": "Hernia repair: inguinal hernia diagnosis and surgical options",
+    "abstract": "Inguinal hernias present with groin bulge and discomfort. Examination distinguishes direct, indirect and femoral hernias. Mesh repair (open Lichtenstein or laparoscopic TAPP/TEP) is standard for symptomatic hernias. Strangulation requires emergency surgery.",
+    "journal": "Lancet",
+    "year": 2018,
+    "topics": ["hernia", "groin", "elective surgery"]
+  },
+  {
+    "pmid": "29502936",
+    "title": "Necrotising soft tissue infections: early recognition and surgical debridement",
+    "abstract": "Necrotising fasciitis is a life-threatening soft tissue infection. Pain out of proportion, rapid progression, crepitus and systemic toxicity demand urgent surgical exploration and repeated debridement plus broad-spectrum antibiotics and supportive care.",
+    "journal": "BMJ",
+    "year": 2018,
+    "topics": ["infection", "soft tissue", "emergency surgery"]
+  },
+  {
+    "pmid": "32675244",
+    "title": "Perforated peptic ulcer: diagnosis and emergency surgical management",
+    "abstract": "Perforated peptic ulcer presents with sudden severe epigastric pain and peritonitis. Free air under the diaphragm on erect chest X-ray supports diagnosis. Resuscitation and prompt laparoscopy or laparotomy with repair and lavage are standard.",
+    "journal": "World J Gastrointest Surg",
+    "year": 2020,
+    "topics": ["peptic ulcer", "peritonitis", "emergency"]
+  },
+  {
+    "pmid": "34143914",
+    "title": "Thyroid nodule evaluation and indications for thyroidectomy",
+    "abstract": "Thyroid nodules are assessed with ultrasound (TIRADS), TSH and selective FNA cytology (Bethesda). Surgery is indicated for malignancy, compressive symptoms, or indeterminate nodules with concerning features after multidisciplinary discussion.",
+    "journal": "Nat Rev Endocrinol",
+    "year": 2021,
+    "topics": ["thyroid", "endocrine surgery", "clinic"]
+  },
+  {
+    "pmid": "27856523",
+    "title": "Compartment syndrome: recognition and fasciotomy in limb trauma",
+    "abstract": "Acute compartment syndrome follows trauma or reperfusion. Pain on passive stretch is the cardinal clinical sign. Diagnosis is clinical; pressures may assist when unclear. Emergent fasciotomy prevents irreversible muscle and nerve injury.",
+    "journal": "Bone Joint J",
+    "year": 2016,
+    "topics": ["trauma", "orthopaedics", "compartment syndrome"]
+  },
+  {
+    "pmid": "30442710",
+    "title": "Anastomotic leak after colorectal surgery: risk factors and management",
+    "abstract": "Anastomotic leak increases morbidity and mortality after colorectal resection. Risk factors include low anastomosis, smoking, steroids and poor perfusion. Management ranges from antibiotics and drainage to takedown and stoma depending on sepsis severity.",
+    "journal": "Colorectal Dis",
+    "year": 2018,
+    "topics": ["colorectal", "complications", "surgery"]
+  },
+  {
+    "pmid": "28947427",
+    "title": "Sepsis in the surgical patient: recognition and the Surviving Sepsis pathway",
+    "abstract": "Surgical sepsis requires early recognition using qSOFA or NEWS, cultures, broad-spectrum antibiotics within one hour, source control and fluid resuscitation. Delay in source control worsens mortality in intra-abdominal sepsis.",
+    "journal": "Ann Surg",
+    "year": 2017,
+    "topics": ["sepsis", "critical care", "surgery"]
+  },
+  {
+    "pmid": "25719832",
+    "title": "Obstructive jaundice: differential diagnosis and biliary decompression",
+    "abstract": "Obstructive jaundice presents with dark urine, pale stools and pruritus. Ultrasound and MRCP differentiate stones from malignancy. ERCP or PTC provides decompression; resectable periampullary cancers proceed to pancreaticoduodenectomy after staging.",
+    "journal": "BMJ",
+    "year": 2015,
+    "topics": ["jaundice", "biliary", "HPB"]
+  },
+  {
+    "pmid": "34556518",
+    "title": "Acute limb ischaemia: clinical assessment and revascularisation strategies",
+    "abstract": "The six Ps — pain, pallor, pulselessness, paraesthesia, paralysis and perishingly cold — characterise acute limb ischaemia. Rutherford classification guides urgency. Embolectomy, thrombolysis or bypass restore perfusion; fasciotomy may be needed after reperfusion.",
+    "journal": "Eur J Vasc Endovasc Surg",
+    "year": 2021,
+    "topics": ["vascular", "ischaemia", "emergency"]
+  }
+]
