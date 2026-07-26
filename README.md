@@ -80,7 +80,19 @@ Backend must be hosted in the cloud (not on your laptop). Free options for **Fas
 
 After that, the Pages site talks to Render; your Mac does not need to run the API.
 
-> Free Render apps sleep after idle time — the first request after sleep can take ~30–60s.
+### Connect GitHub Pages → local backend (tunnel)
+
+1. Run backend locally on `:8000`.
+2. Expose it with a tunnel (e.g. localhost.run) to get an `https://….lhr.life` URL.
+3. Put that URL in `frontend/public/config.json`:
+
+```json
+{ "apiUrl": "https://YOUR-TUNNEL.lhr.life" }
+```
+
+4. Commit & push (or set GitHub secret `VITE_API_URL` to the same URL and re-run **Deploy GitHub Pages**).
+
+The Pages site reads `config.json` at runtime. Keep the tunnel + local backend running while you use the site.
 
 ## Disclaimer
 

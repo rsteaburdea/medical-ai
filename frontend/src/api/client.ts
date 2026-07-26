@@ -92,12 +92,45 @@ export interface PubMedChatSession {
   last_articles: MatchArticle[];
 }
 
-const API_BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
-
-export const SERVER_UNAVAILABLE =
+const SERVER_UNAVAILABLE =
   "Server not available. Models and agents will appear when the backend is back online.";
 
+export { SERVER_UNAVAILABLE };
+
+let apiBaseResolved: string | null = null;
+let apiBasePromise: Promise<string> | null = null;
+
+async function resolveApiBase(): Promise<string> {
+  if (apiBaseResolved != null) return apiBaseResolved;
+  if (!apiBasePromise) {
+    apiBasePromise = (async () => {
+      const fromEnv = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
+      if (fromEnv) {
+        apiBaseResolved = fromEnv;
+        return fromEnv;
+      }
+      try {
+        const res = await fetch(`${import.meta.env.BASE_URL}config.json`, { cache: "no-store" });
+        if (res.ok) {
+          const cfg = (await res.json()) as { apiUrl?: string };
+          const url = (cfg.apiUrl ?? "").replace(/\/$/, "");
+          if (url) {
+            apiBaseResolved = url;
+            return url;
+          }
+        }
+      } catch {
+        /* ignore — fall through to same-origin / Vite proxy */
+      }
+      apiBaseResolved = "";
+      return "";
+    })();
+  }
+  return apiBasePromise;
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  const API_BASE = await resolveApiBase();
   let res: Response;
   try {
     res = await fetch(`${API_BASE}${path}`, {
