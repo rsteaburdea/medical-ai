@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
-import { api, type AgentInfo, type PubMedChatSession } from "../api/client";
+import { api, SERVER_UNAVAILABLE, type AgentInfo, type PubMedChatSession } from "../api/client";
 import ModelPicker from "../components/ModelPicker";
 
 export default function PubMedChatPage() {
@@ -13,13 +13,17 @@ export default function PubMedChatPage() {
   const threadRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    api.agents().then((res) => {
-      const chat = res.agents.find((a) => a.id === "pubmed-chat");
-      if (chat) {
-        setAgent(chat);
-        setModelId(chat.default_model);
-      }
-    });
+    api
+      .agents()
+      .then((res) => {
+        const chat = res.agents.find((a) => a.id === "pubmed-chat");
+        if (chat) {
+          setAgent(chat);
+          setModelId(chat.default_model);
+        }
+        setError(null);
+      })
+      .catch(() => setError(SERVER_UNAVAILABLE));
   }, []);
 
   useEffect(() => {

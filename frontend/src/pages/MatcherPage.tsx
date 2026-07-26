@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { api, type AgentInfo, type MatchResult } from "../api/client";
+import { api, SERVER_UNAVAILABLE, type AgentInfo, type MatchResult } from "../api/client";
 import ModelPicker from "../components/ModelPicker";
 
 export default function MatcherPage() {
@@ -11,13 +11,17 @@ export default function MatcherPage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    api.agents().then((res) => {
-      const matcher = res.agents.find((a) => a.id === "pubmed-matcher");
-      if (matcher) {
-        setAgent(matcher);
-        setModelId(matcher.default_model);
-      }
-    });
+    api
+      .agents()
+      .then((res) => {
+        const matcher = res.agents.find((a) => a.id === "pubmed-matcher");
+        if (matcher) {
+          setAgent(matcher);
+          setModelId(matcher.default_model);
+        }
+        setError(null);
+      })
+      .catch(() => setError(SERVER_UNAVAILABLE));
   }, []);
 
   async function onSubmit(e: FormEvent) {

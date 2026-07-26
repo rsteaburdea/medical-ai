@@ -67,7 +67,7 @@ GitHub Pages is static-only — the FastAPI backend must run elsewhere (Render, 
    - `VITE_API_URL` = `https://your-backend.example.com` (no trailing slash)
 3. Re-run the **Deploy GitHub Pages** workflow (or push to `main`).
 
-Without `VITE_API_URL`, the Pages site loads but API calls fail.
+Without `VITE_API_URL`, the Pages site shows **Server not available** until a backend is configured.
 
 ## Disclaimer
 

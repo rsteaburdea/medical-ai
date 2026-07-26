@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { api, type AgentInfo } from "../api/client";
+import { api, SERVER_UNAVAILABLE, type AgentInfo } from "../api/client";
 
 const ROUTES: Record<string, string> = {
   "clinical-station": "/clinical",
@@ -12,25 +12,30 @@ export default function HomePage() {
   const [agents, setAgents] = useState<AgentInfo[]>([]);
   const [hfOk, setHfOk] = useState<boolean | null>(null);
   const [demoMode, setDemoMode] = useState(false);
+  const [serverDown, setServerDown] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([api.agents(), api.health().catch(() => null)])
+    setLoading(true);
+    Promise.all([api.agents(), api.health()])
       .then(([agentsRes, health]) => {
         if (cancelled) return;
         setAgents(agentsRes.agents);
-        if (health) {
-          setHfOk(health.hf_token_configured);
-          setDemoMode(Boolean(health.demo_mode));
-        } else if (!import.meta.env.VITE_API_URL) {
-          setError(
-            "Models are shown from the built-in catalog. Live CST / PubMed need a backend — set VITE_API_URL and redeploy.",
-          );
-        }
+        setHfOk(health.hf_token_configured);
+        setDemoMode(Boolean(health.demo_mode));
+        setServerDown(false);
+        setError(null);
       })
-      .catch((err: Error) => {
-        if (!cancelled) setError(err.message);
+      .catch(() => {
+        if (cancelled) return;
+        setAgents([]);
+        setServerDown(true);
+        setError(SERVER_UNAVAILABLE);
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
       });
     return () => {
       cancelled = true;
@@ -70,7 +75,7 @@ export default function HomePage() {
               Hugging Face models.
             </p>
           )}
-          {error && <div className="error-banner">{error}</div>}
+          {(serverDown || error) && <div className="error-banner">{error ?? SERVER_UNAVAILABLE}</div>}
         </div>
         <div className="hero-visual" aria-hidden>
           <div className="pulse" />
@@ -83,6 +88,13 @@ export default function HomePage() {
           <h2>Choose an agent</h2>
           <p>Each agent exposes the models best suited to its job. Select one to continue.</p>
         </div>
+        {loading && <p className="muted">Connecting to server…</p>}
+        {!loading && serverDown && (
+          <div className="error-banner">{SERVER_UNAVAILABLE}</div>
+        )}
+        {!loading && !serverDown && agents.length === 0 && (
+          <p className="muted">No agents returned by the server yet.</p>
+        )}
         <div className="agent-grid">
           {agents.map((agent, i) => (
             <Link

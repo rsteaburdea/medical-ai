@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import {
   api,
+  SERVER_UNAVAILABLE,
   type AgentInfo,
   type ClinicalSession,
   type ModelInfo,
@@ -79,13 +80,17 @@ export default function ClinicalPage() {
   }
 
   useEffect(() => {
-    api.agents().then((res) => {
-      const clinical = res.agents.find((a) => a.id === "clinical-station");
-      if (clinical) {
-        setAgent(clinical);
-        setModelId(clinical.default_model);
-      }
-    });
+    api
+      .agents()
+      .then((res) => {
+        const clinical = res.agents.find((a) => a.id === "clinical-station");
+        if (clinical) {
+          setAgent(clinical);
+          setModelId(clinical.default_model);
+        }
+        setError(null);
+      })
+      .catch(() => setError(SERVER_UNAVAILABLE));
   }, []);
 
   useEffect(() => {
@@ -252,6 +257,16 @@ export default function ClinicalPage() {
           <span className={`step-pill ${step === "score" ? "active" : ""}`}>4 · Score</span>
         </div>
       </div>
+
+      {step === "model" && !agent && (
+        <div className="panel">
+          {error ? (
+            <div className="error-banner">{error}</div>
+          ) : (
+            <p className="muted">Connecting to server…</p>
+          )}
+        </div>
+      )}
 
       {step === "model" && agent && selectedModel && (
         <div className="panel">

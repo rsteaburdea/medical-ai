@@ -94,25 +94,23 @@ export interface PubMedChatSession {
 
 const API_BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
 
-export function apiConfigured(): boolean {
-  // Local/dev: empty base uses Vite/nginx proxy. Pages build must set VITE_API_URL.
-  if (API_BASE) return true;
-  if (typeof window === "undefined") return false;
-  const host = window.location.hostname;
-  return host === "localhost" || host === "127.0.0.1";
-}
+export const SERVER_UNAVAILABLE =
+  "Server not available. Models and agents will appear when the backend is back online.";
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  if (!apiConfigured() && path.startsWith("/api/") && path !== "/api/agents") {
-    throw new Error(
-      "Backend API is not configured for this site. Set GitHub secret VITE_API_URL to your FastAPI URL and redeploy Pages.",
-    );
+  let res: Response;
+  try {
+    res = await fetch(`${API_BASE}${path}`, {
+      headers: { "Content-Type": "application/json", ...(init?.headers ?? {}) },
+      ...init,
+    });
+  } catch {
+    throw new Error(SERVER_UNAVAILABLE);
   }
-  const res = await fetch(`${API_BASE}${path}`, {
-    headers: { "Content-Type": "application/json", ...(init?.headers ?? {}) },
-    ...init,
-  });
   if (!res.ok) {
+    if (res.status === 404 || res.status >= 500 || res.status === 0) {
+      throw new Error(SERVER_UNAVAILABLE);
+    }
     let detail = res.statusText;
     try {
       const body = await res.json();
@@ -128,18 +126,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 export const api = {
   health: () =>
     request<{ status: string; hf_token_configured: boolean; demo_mode?: boolean }>("/api/health"),
-  agents: async () => {
-    try {
-      if (!apiConfigured()) {
-        const { FALLBACK_AGENTS } = await import("../data/agents");
-        return { agents: FALLBACK_AGENTS, offline_catalog: true as const };
-      }
-      return await request<{ agents: AgentInfo[] }>("/api/agents");
-    } catch {
-      const { FALLBACK_AGENTS } = await import("../data/agents");
-      return { agents: FALLBACK_AGENTS, offline_catalog: true as const };
-    }
-  },
+  agents: () => request<{ agents: AgentInfo[] }>("/api/agents"),
   clinicalCases: () =>
     request<{
       cases: Array<{ id: string; title: string; stem: string; generated?: boolean }>;
