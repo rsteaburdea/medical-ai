@@ -57,7 +57,18 @@ export default function HomePage() {
               Hugging Face models.
             </p>
           )}
-          {error && <div className="error-banner">{error}</div>}
+          {error && (
+            <div className="error-banner">
+              {error}
+              {!import.meta.env.VITE_API_URL && (
+                <p style={{ margin: "0.5rem 0 0" }}>
+                  GitHub Pages serves only the frontend. Set repo secret{" "}
+                  <code>VITE_API_URL</code> to your public FastAPI backend (e.g. Render), then
+                  redeploy.
+                </p>
+              )}
+            </div>
+          )}
         </div>
         <div className="hero-visual" aria-hidden>
           <div className="pulse" />

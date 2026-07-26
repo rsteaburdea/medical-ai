@@ -92,7 +92,7 @@ export interface PubMedChatSession {
   last_articles: MatchArticle[];
 }
 
-const API_BASE = import.meta.env.VITE_API_URL ?? "";
+const API_BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {

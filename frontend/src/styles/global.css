@@ -236,6 +236,18 @@ select {
   margin: 0 0 1.25rem;
 }
 
+.section-head-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.section-head-row .btn {
+  flex-shrink: 0;
+}
+
 .section-head h2 {
   margin: 0 0 0.35rem;
   font-family: var(--font-display);
@@ -873,11 +885,62 @@ select {
 
 .chart-dot {
   fill: var(--teal-deep);
+  pointer-events: none;
+}
+
+.chart-hit {
+  cursor: pointer;
+}
+
+.chart-hover-score {
+  fill: var(--teal-deep);
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease;
+}
+
+.chart-point:hover .chart-hover-score {
+  opacity: 1;
+}
+
+.chart-point:hover .chart-dot {
+  fill: var(--mint);
+  stroke: var(--teal-deep);
+  stroke-width: 2;
+}
+
+.chart-x-label {
+  font-size: 9px;
 }
 
 .chart-label {
   fill: var(--ink-soft);
   font-size: 10px;
+}
+
+.progress-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.35rem 0 0.75rem;
+}
+
+.progress-stat {
+  min-width: 140px;
+  padding: 0.65rem 0.85rem;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.progress-stat strong {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  color: var(--teal-deep);
 }
 
 .history-list {
@@ -891,6 +954,14 @@ select {
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.55);
   overflow: hidden;
+}
+
+.history-case-title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--teal-deep);
+  margin-bottom: 0.15rem;
 }
 
 .history-summary {

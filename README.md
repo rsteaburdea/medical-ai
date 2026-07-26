@@ -54,6 +54,21 @@ docker compose up --build
 
 App: **http://localhost:8080**
 
+## GitHub Pages (frontend)
+
+The UI deploys automatically to GitHub Pages on every push to `main`:
+
+**https://rsteaburdea.github.io/medical-ai/**
+
+GitHub Pages is static-only — the FastAPI backend must run elsewhere (Render, Railway, Fly.io, a VPS, etc.).
+
+1. Deploy the backend publicly (Docker image from `backend/`, set `HF_TOKEN`, `CORS_ORIGINS=*`).
+2. In the GitHub repo: **Settings → Secrets and variables → Actions** → add secret:
+   - `VITE_API_URL` = `https://your-backend.example.com` (no trailing slash)
+3. Re-run the **Deploy GitHub Pages** workflow (or push to `main`).
+
+Without `VITE_API_URL`, the Pages site loads but API calls fail.
+
 ## Disclaimer
 
 Educational simulation only — not clinical advice, not a substitute for real CST assessment.

@@ -1,6 +1,8 @@
 interface Point {
   label: string;
   score: number;
+  detail?: string;
+  dateKey?: string;
 }
 
 interface Props {
@@ -13,8 +15,8 @@ export default function ScoreChart({ points }: Props) {
   }
 
   const w = 560;
-  const h = 180;
-  const pad = { t: 16, r: 16, b: 36, l: 36 };
+  const h = 200;
+  const pad = { t: 28, r: 16, b: 44, l: 36 };
   const innerW = w - pad.l - pad.r;
   const innerH = h - pad.t - pad.b;
   const maxY = 100;
@@ -24,7 +26,7 @@ export default function ScoreChart({ points }: Props) {
   const area = `${line} L${xs[xs.length - 1]},${pad.t + innerH} L${xs[0]},${pad.t + innerH} Z`;
 
   return (
-    <svg className="score-chart" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="Score progression">
+    <svg className="score-chart" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="Daily score progression">
       {[0, 25, 50, 75, 100].map((tick) => {
         const y = pad.t + innerH - (tick / maxY) * innerH;
         return (
@@ -38,14 +40,24 @@ export default function ScoreChart({ points }: Props) {
       })}
       <path d={area} className="chart-area" />
       <path d={line} className="chart-line" fill="none" />
-      {xs.map((x, i) => (
-        <g key={`${points[i].label}-${i}`}>
-          <circle cx={x} cy={ys[i]} r={4.5} className="chart-dot" />
-          <text x={x} y={h - 10} className="chart-label" textAnchor="middle">
-            {points[i].label}
-          </text>
-        </g>
-      ))}
+      {xs.map((x, i) => {
+        const p = points[i];
+        const tip = p.detail ?? `${Math.round(p.score)}/100`;
+        return (
+          <g key={`${p.dateKey ?? p.label}-${i}`} className="chart-point">
+            {/* Larger invisible hit target for hover */}
+            <circle cx={x} cy={ys[i]} r={14} fill="transparent" className="chart-hit" />
+            <circle cx={x} cy={ys[i]} r={4.5} className="chart-dot" />
+            <title>{tip}</title>
+            <text x={x} y={ys[i] - 10} className="chart-hover-score" textAnchor="middle">
+              {Math.round(p.score)}
+            </text>
+            <text x={x} y={h - 12} className="chart-label chart-x-label" textAnchor="middle">
+              {p.label}
+            </text>
+          </g>
+        );
+      })}
     </svg>
   );
 }
