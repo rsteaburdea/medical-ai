@@ -104,11 +104,8 @@ async function resolveApiBase(): Promise<string> {
   if (apiBaseResolved != null) return apiBaseResolved;
   if (!apiBasePromise) {
     apiBasePromise = (async () => {
-      const fromEnv = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
-      if (fromEnv) {
-        apiBaseResolved = fromEnv;
-        return fromEnv;
-      }
+      // Prefer runtime config.json so GitHub Pages can retarget the API without a stale
+      // VITE_API_URL secret baked into the JS bundle.
       try {
         const res = await fetch(`${import.meta.env.BASE_URL}config.json`, { cache: "no-store" });
         if (res.ok) {
@@ -120,7 +117,12 @@ async function resolveApiBase(): Promise<string> {
           }
         }
       } catch {
-        /* ignore — fall through to same-origin / Vite proxy */
+        /* ignore — fall through */
+      }
+      const fromEnv = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
+      if (fromEnv) {
+        apiBaseResolved = fromEnv;
+        return fromEnv;
       }
       apiBaseResolved = "";
       return "";
