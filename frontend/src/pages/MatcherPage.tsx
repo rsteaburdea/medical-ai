@@ -53,9 +53,20 @@ export default function MatcherPage() {
       </div>
 
       <div className="panel">
+        <div className="section-head" style={{ marginBottom: "0.75rem" }}>
+          <h3 style={{ margin: 0, fontFamily: "var(--font-display)", color: "var(--teal-deep)" }}>
+            Choose embedding model
+          </h3>
+          <p className="muted" style={{ margin: "0.35rem 0 0" }}>
+            PubMedBERT is recommended; MiniLM / SapBERT / S-PubMedBERT are free fallbacks you can
+            pick explicitly.
+          </p>
+        </div>
         {agent && <ModelPicker models={agent.models} selected={modelId} onSelect={setModelId} />}
+        {!agent && error && <div className="error-banner">{error}</div>}
+        {!agent && !error && <p className="muted">Connecting to server…</p>}
 
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} style={{ marginTop: "1rem" }}>
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}

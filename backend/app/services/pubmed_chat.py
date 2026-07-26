@@ -45,7 +45,12 @@ def start_session(model_id: str) -> PubMedChatSession:
         raise ValueError(f"Unknown pubmed chat model: {model_id}")
 
     model_meta = get_model("pubmed-chat", model_id)
-    note = f"\n\n_Using `{model_meta.name if model_meta else model_id}` (free Hugging Face Inference)._"
+    opener = (
+        "PubMed Literature Chat is ready.\n\n"
+        "Type a question below (or use a suggestion), optionally add a PubMed search query, "
+        "then press Send — I will answer using retrieved abstracts when available.\n\n"
+        f"Model: {model_meta.name if model_meta else model_id}"
+    )
 
     session = PubMedChatSession(
         session_id=str(uuid.uuid4()),
@@ -54,11 +59,7 @@ def start_session(model_id: str) -> PubMedChatSession:
         messages=[
             ChatMessage(
                 role="assistant",
-                content=(
-                    "PubMed Literature Chat ready. Ask me to search a topic, summarise papers, "
-                    "compare findings, or draft content grounded in abstracts."
-                    + note
-                ),
+                content=opener,
             )
         ],
     )

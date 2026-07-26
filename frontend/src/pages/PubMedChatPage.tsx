@@ -126,6 +126,42 @@ export default function PubMedChatPage() {
                     placeholder="Ask to summarise, compare, explain, or draft…"
                     disabled={busy}
                   />
+                  <div className="cta-row" style={{ margin: 0, flexWrap: "wrap" }}>
+                    {[
+                      "What is PubMed in one sentence?",
+                      "Summarise recent papers on acute appendicitis",
+                      "Compare open vs laparoscopic appendectomy evidence",
+                    ].map((q) => (
+                      <button
+                        key={q}
+                        type="button"
+                        className="btn btn-ghost"
+                        disabled={busy}
+                        style={{ fontSize: "0.85rem" }}
+                        onClick={async () => {
+                          if (!session || busy) return;
+                          setBusy(true);
+                          setError(null);
+                          setInput("");
+                          try {
+                            const s = await api.pubmedChat(
+                              session.session_id,
+                              q,
+                              searchQuery.trim() || undefined,
+                            );
+                            setSession(s);
+                            setSearchQuery("");
+                          } catch (err) {
+                            setError(err instanceof Error ? err.message : "Chat failed");
+                          } finally {
+                            setBusy(false);
+                          }
+                        }}
+                      >
+                        {q}
+                      </button>
+                    ))}
+                  </div>
                 </div>
                 <button className="btn btn-primary" type="submit" disabled={busy || !input.trim()}>
                   Send

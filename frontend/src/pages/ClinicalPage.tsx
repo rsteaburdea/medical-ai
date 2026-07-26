@@ -7,6 +7,7 @@ import {
   type ModelInfo,
   type ScoreResult,
 } from "../api/client";
+import ModelPicker from "../components/ModelPicker";
 import {
   formatDuration,
   saveHistoryEntry,
@@ -270,10 +271,23 @@ export default function ClinicalPage() {
 
       {step === "model" && agent && selectedModel && (
         <div className="panel">
-          <div className="model-detail-card">
+          <div className="section-head" style={{ marginBottom: "0.75rem" }}>
+            <h3 style={{ margin: 0, fontFamily: "var(--font-display)", color: "var(--teal-deep)" }}>
+              Choose examiner model
+            </h3>
+            <p className="muted" style={{ margin: "0.35rem 0 0" }}>
+              Pick Med42 or an explicit free fallback (Llama 3.3 / Qwen 2.5 / Llama 3.1).
+            </p>
+          </div>
+          {agent.models.length > 0 ? (
+            <ModelPicker models={agent.models} selected={modelId} onSelect={setModelId} />
+          ) : (
+            <p className="muted">No models returned by the server.</p>
+          )}
+          <div className="model-detail-card" style={{ marginTop: "1rem" }}>
             <div className="badges">
               <span className="badge rec">Free</span>
-              <span className="badge rec">Selected for CST</span>
+              {selectedModel.recommended && <span className="badge rec">Recommended</span>}
               <span className="badge">{selectedModel.size}</span>
             </div>
             <h3>{selectedModel.name}</h3>
