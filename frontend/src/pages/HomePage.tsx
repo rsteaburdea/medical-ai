@@ -15,13 +15,26 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([api.agents(), api.health()])
+    let cancelled = false;
+    Promise.all([api.agents(), api.health().catch(() => null)])
       .then(([agentsRes, health]) => {
+        if (cancelled) return;
         setAgents(agentsRes.agents);
-        setHfOk(health.hf_token_configured);
-        setDemoMode(Boolean(health.demo_mode));
+        if (health) {
+          setHfOk(health.hf_token_configured);
+          setDemoMode(Boolean(health.demo_mode));
+        } else if (!import.meta.env.VITE_API_URL) {
+          setError(
+            "Models are shown from the built-in catalog. Live CST / PubMed need a backend — set VITE_API_URL and redeploy.",
+          );
+        }
       })
-      .catch((err: Error) => setError(err.message));
+      .catch((err: Error) => {
+        if (!cancelled) setError(err.message);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return (
@@ -57,18 +70,7 @@ export default function HomePage() {
               Hugging Face models.
             </p>
           )}
-          {error && (
-            <div className="error-banner">
-              {error}
-              {!import.meta.env.VITE_API_URL && (
-                <p style={{ margin: "0.5rem 0 0" }}>
-                  GitHub Pages serves only the frontend. Set repo secret{" "}
-                  <code>VITE_API_URL</code> to your public FastAPI backend (e.g. Render), then
-                  redeploy.
-                </p>
-              )}
-            </div>
-          )}
+          {error && <div className="error-banner">{error}</div>}
         </div>
         <div className="hero-visual" aria-hidden>
           <div className="pulse" />

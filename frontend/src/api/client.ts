@@ -94,7 +94,20 @@ export interface PubMedChatSession {
 
 const API_BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
 
+export function apiConfigured(): boolean {
+  // Local/dev: empty base uses Vite/nginx proxy. Pages build must set VITE_API_URL.
+  if (API_BASE) return true;
+  if (typeof window === "undefined") return false;
+  const host = window.location.hostname;
+  return host === "localhost" || host === "127.0.0.1";
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  if (!apiConfigured() && path.startsWith("/api/") && path !== "/api/agents") {
+    throw new Error(
+      "Backend API is not configured for this site. Set GitHub secret VITE_API_URL to your FastAPI URL and redeploy Pages.",
+    );
+  }
   const res = await fetch(`${API_BASE}${path}`, {
     headers: { "Content-Type": "application/json", ...(init?.headers ?? {}) },
     ...init,
@@ -115,7 +128,18 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 export const api = {
   health: () =>
     request<{ status: string; hf_token_configured: boolean; demo_mode?: boolean }>("/api/health"),
-  agents: () => request<{ agents: AgentInfo[] }>("/api/agents"),
+  agents: async () => {
+    try {
+      if (!apiConfigured()) {
+        const { FALLBACK_AGENTS } = await import("../data/agents");
+        return { agents: FALLBACK_AGENTS, offline_catalog: true as const };
+      }
+      return await request<{ agents: AgentInfo[] }>("/api/agents");
+    } catch {
+      const { FALLBACK_AGENTS } = await import("../data/agents");
+      return { agents: FALLBACK_AGENTS, offline_catalog: true as const };
+    }
+  },
   clinicalCases: () =>
     request<{
       cases: Array<{ id: string; title: string; stem: string; generated?: boolean }>;
